@@ -494,6 +494,16 @@ ul { list-style: none; }
 .work-full-card .work-card-visual {
   height: auto;
   min-height: 280px;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-full-card .work-card-visual svg {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .work-card-content { padding: 32px 36px; }
