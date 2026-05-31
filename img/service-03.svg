@@ -1,51 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 320" fill="none">
-  <defs>
-    <filter id="f-md" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1a3a5c" flood-opacity="0.10"/>
-    </filter>
-    <filter id="f-lg" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1a3a5c" flood-opacity="0.12"/>
-    </filter>
-    <filter id="f-sm" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1a3a5c" flood-opacity="0.10"/>
-    </filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 320">
+  <rect width="440" height="320" fill="#e8f0f8"/>
 
-                <rect width="440" height="320" fill="#e8f0f8"/>
-                <circle cx="88" cy="88" r="32" fill="white" filter="url(#f-md)"/>
-                <circle cx="88" cy="80" r="14" fill="#e8f0f8"/>
-                <circle cx="88" cy="76" r="8" fill="#4a90d9"/>
-                <path d="M68 96 q20-16 40 0" stroke="#4a90d9" stroke-width="2" fill="none"/>
-                <text x="88" y="130" text-anchor="middle" fill="#64748b" font-size="9">クライアント</text>
-                <rect x="28" y="148" width="120" height="56" rx="8" fill="white" filter="url(#f-md)"/>
-                <polygon points="60,148 50,132 80,148" fill="white"/>
-                <text x="88" y="167" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">「何から始めれば</text>
-                <text x="88" y="180" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">いいか分からない」</text>
-                <text x="88" y="195" text-anchor="middle" fill="#94a3b8" font-size="7">「本当に必要？」</text>
-                <circle cx="352" cy="88" r="32" fill="#1a3a5c" filter="url(#f-md)"/>
-                <text x="352" y="84" text-anchor="middle" fill="white" font-size="8" font-weight="700">tech</text>
-                <text x="352" y="96" text-anchor="middle" fill="#4a90d9" font-size="8" font-weight="700">-iro</text>
-                <text x="352" y="130" text-anchor="middle" fill="#64748b" font-size="9">テクイロ</text>
-                <rect x="292" y="148" width="120" height="56" rx="8" fill="white" filter="url(#f-md)"/>
-                <polygon points="320,148 340,132 360,148" fill="white"/>
-                <text x="352" y="167" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">「まず課題を</text>
-                <text x="352" y="180" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">整理しましょう」</text>
-                <text x="352" y="195" text-anchor="middle" fill="#94a3b8" font-size="7">費用ゼロで初回相談可</text>
-                <line x1="128" y1="88" x2="312" y2="88" stroke="#bfdbfe" stroke-width="1.5" stroke-dasharray="5 4"/>
-                <rect x="100" y="224" width="240" height="80" rx="10" fill="white" filter="url(#f-md)"/>
-                <rect x="100" y="224" width="240" height="24" rx="10" fill="#1a3a5c"/>
-                <rect x="100" y="240" width="240" height="8" fill="#1a3a5c"/>
-                <text x="220" y="239" text-anchor="middle" fill="white" font-size="9" font-weight="700">ヒアリング後に提示するもの</text>
-                
-                <circle cx="124" cy="265" r="5" fill="#4a90d9"/>
-                <text x="136" y="269" fill="#1a3a5c" font-size="8" font-weight="700">課題の整理と優先順位</text>
-                <circle cx="124" cy="283" r="5" fill="#4a90d9"/>
-                <text x="136" y="287" fill="#1a3a5c" font-size="8" font-weight="700">開発範囲と概算見積もり</text>
-                <circle cx="290" cy="265" r="5" fill="#4a90d9"/>
-                <text x="302" y="269" fill="#1a3a5c" font-size="8" font-weight="700">スケジュール案</text>
-                <circle cx="290" cy="283" r="5" fill="#4a90d9"/>
-                <text x="302" y="287" fill="#1a3a5c" font-size="8" font-weight="700">「不要」の判断も提案</text>
-                <line x1="220" y1="208" x2="220" y2="220" stroke="#4a90d9" stroke-width="2"/>
-                <polygon points="220,224 215,216 225,216" fill="#4a90d9"/>
-              </svg>
+  <!-- Client (left) -->
+  <circle cx="90" cy="108" r="32" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+  <circle cx="90" cy="100" r="13" fill="#e8f0f8"/>
+  <circle cx="90" cy="96" r="8" fill="#94a3b8"/>
+  <path d="M70 116q20-14 40 0" stroke="#94a3b8" stroke-width="2" fill="none"/>
+  <!-- Question bubble -->
+  <rect x="28" y="152" width="88" height="44" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+  <polygon points="62,152 50,138 76,152" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="72" y="170" text-anchor="middle" fill="#64748b" font-size="20" font-weight="700">?</text>
+  <text x="72" y="186" text-anchor="middle" fill="#94a3b8" font-size="10">何から始めれば…</text>
+  <text x="90" y="224" text-anchor="middle" fill="#94a3b8" font-size="12">クライアント</text>
+
+  <!-- tech-iro (right) -->
+  <circle cx="350" cy="108" r="32" fill="#1a3a5c"/>
+  <text x="350" y="104" text-anchor="middle" fill="white" font-size="9" font-weight="700">tech</text>
+  <text x="350" y="117" text-anchor="middle" fill="#4a90d9" font-size="9" font-weight="700">-iro</text>
+  <!-- Answer bubble -->
+  <rect x="324" y="152" width="88" height="44" rx="8" fill="#1a3a5c"/>
+  <polygon points="358,152 340,138 366,152" fill="#1a3a5c"/>
+  <text x="368" y="170" text-anchor="middle" fill="white" font-size="13" font-weight="700">!</text>
+  <text x="368" y="186" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="10">一緒に整理します</text>
+  <text x="350" y="224" text-anchor="middle" fill="#1a3a5c" font-size="12" font-weight="700">テクイロ</text>
+
+  <!-- Output: plan document -->
+  <rect x="148" y="236" width="144" height="68" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="148" y="236" width="144" height="22" rx="8" fill="#1a3a5c"/>
+  <rect x="148" y="250" width="144" height="8" fill="#1a3a5c"/>
+  <text x="220" y="250" text-anchor="middle" fill="white" font-size="9" font-weight="700">ヒアリング後の提案書</text>
+  <circle cx="168" cy="270" r="4" fill="#4a90d9"/>
+  <line x1="178" y1="270" x2="276" y2="270" stroke="#e2e8f0" stroke-width="1.5"/>
+  <circle cx="168" cy="286" r="4" fill="#4a90d9"/>
+  <line x1="178" y1="286" x2="260" y2="286" stroke="#e2e8f0" stroke-width="1.5"/>
+  <!-- Arrow pointing down to doc -->
+  <line x1="220" y1="210" x2="220" y2="232" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="220,236 214,228 226,228" fill="#4a90d9"/>
+  <!-- Dashed line between people -->
+  <line x1="130" y1="108" x2="310" y2="108" stroke="#bfdbfe" stroke-width="1.5" stroke-dasharray="6 4"/>
+</svg>
