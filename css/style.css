@@ -149,7 +149,7 @@ ul { list-style: none; }
 
 /* ===== HERO ===== */
 .hero {
-  min-height: 65vh;
+  min-height: 88vh;
   display: flex;
   align-items: center;
   padding-top: 64px;
@@ -201,11 +201,11 @@ ul { list-style: none; }
 }
 
 .hero-title {
-  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  font-size: clamp(2.2rem, 5vw, 4.2rem);
   font-weight: 700;
   color: var(--black);
-  line-height: 1.45;
-  margin-bottom: 24px;
+  line-height: 1.35;
+  margin-bottom: 28px;
   max-width: 600px;
 }
 
@@ -259,7 +259,7 @@ ul { list-style: none; }
 }
 
 .stat-number {
-  font-size: 3rem;
+  font-size: clamp(2.8rem, 5vw, 4rem);
   font-weight: 700;
   color: var(--white);
   line-height: 1;
@@ -647,6 +647,82 @@ ul { list-style: none; }
 .cta-section .btn:hover {
   background: transparent;
   color: var(--white);
+}
+
+/* ===== MOTION & ANIMATIONS ===== */
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(44px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-10px); }
+}
+
+/* Hero: CSS-driven entrance on page load */
+.hero-eyebrow       { animation: fadeUp 0.65s 0.10s both cubic-bezier(0.22, 1, 0.36, 1); }
+.hero-title         { animation: fadeUp 0.80s 0.28s both cubic-bezier(0.22, 1, 0.36, 1); }
+.hero-subtitle      { animation: fadeUp 0.70s 0.48s both cubic-bezier(0.22, 1, 0.36, 1); }
+.hero-content > .btn { animation: fadeUp 0.60s 0.68s both cubic-bezier(0.22, 1, 0.36, 1); }
+.hero-visual        { animation: slideInRight 0.90s 0.30s both cubic-bezier(0.22, 1, 0.36, 1); }
+.hero-illustration  { animation: floatY 7s ease-in-out 1.30s infinite; }
+
+/* Scroll reveal — base state (JS adds data-reveal attribute) */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.72s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.72s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Divider: reveal by growing width instead of fading up */
+.divider[data-reveal] {
+  opacity: 1;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.55s 0.15s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.divider[data-reveal].is-visible { transform: scaleX(1); }
+
+/* Section label: slide in from left */
+.section-label[data-reveal],
+.about-block-title[data-reveal] {
+  transform: translateX(-14px);
+  transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.section-label[data-reveal].is-visible,
+.about-block-title[data-reveal].is-visible { transform: translateX(0); }
+
+/* Service item: slide from left */
+.service-item[data-reveal] {
+  transform: translateX(-20px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+              background 0.22s;
+}
+.service-item[data-reveal].is-visible { transform: translateX(0); }
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
 }
 
 /* ===== RESPONSIVE ===== */
