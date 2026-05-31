@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サービス | テクイロ</title>
+  <meta name="description" content="テクイロのサービス。業務システム開発・既存システム改善・構想段階からのサポート。要件定義から運用保守まで一貫対応。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">tech<span class="accent">-iro</span></a>
+      <nav aria-label="メインメニュー">
+        <ul class="nav-list">
+          <li><a href="works.html">実績</a></li>
+          <li><a href="services.html">サービス</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" aria-label="モバイルメニュー">
+    <ul class="mobile-nav-list">
+      <li><a href="works.html">実績</a></li>
+      <li><a href="services.html">サービス</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">お問い合わせ</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- Page Hero -->
+    <div class="page-hero">
+      <div class="container">
+        <p class="page-hero-label">Services</p>
+        <h1 class="page-hero-title">サービス</h1>
+        <p class="page-hero-sub">システムは手段です。本当に解決したい課題を一緒に整理するところから始めます。</p>
+      </div>
+      <span class="page-hero-deco">Services</span>
+    </div>
+
+    <!-- Services -->
+    <section class="section">
+      <div class="container">
+        <div class="svc-flow-grid">
+
+          <!-- Service 01 -->
+          <div class="svc-flow-item">
+            <div class="svc-flow-visual">
+              <svg viewBox="0 0 440 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="440" height="320" fill="#e8f0f8"/>
+                <defs>
+                  <filter id="sv1" x="-10%" y="-10%" width="120%" height="120%">
+                    <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1a3a5c" flood-opacity="0.10"/>
+                  </filter>
+                </defs>
+
+                <!-- BEFORE: scattered state (left) -->
+                <rect x="20" y="24" width="160" height="272" rx="10" fill="white" filter="url(#sv1)" opacity="0.8"/>
+                <text x="100" y="48" text-anchor="middle" fill="#94a3b8" font-size="9" font-weight="700">BEFORE</text>
+
+                <!-- Paper stack 1 -->
+                <rect x="36" y="58" width="128" height="20" rx="3" fill="#fef3c7" stroke="#fde68a" stroke-width="1"/>
+                <line x1="44" y1="65" x2="120" y2="65" stroke="#d97706" stroke-width="1" opacity="0.6"/>
+                <line x1="44" y1="71" x2="100" y2="71" stroke="#d97706" stroke-width="1" opacity="0.4"/>
+
+                <rect x="36" y="84" width="128" height="20" rx="3" fill="#fef3c7" stroke="#fde68a" stroke-width="1"/>
+                <line x1="44" y1="91" x2="130" y2="91" stroke="#d97706" stroke-width="1" opacity="0.6"/>
+                <line x1="44" y1="97" x2="90" y2="97" stroke="#d97706" stroke-width="1" opacity="0.4"/>
+
+                <!-- Excel grid mock -->
+                <rect x="36" y="112" width="128" height="72" rx="3" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+                <rect x="36" y="112" width="128" height="14" rx="3" fill="#d1fae5"/>
+                <rect x="36" y="119" width="128" height="5" fill="#d1fae5"/>
+                <text x="100" y="122" text-anchor="middle" fill="#059669" font-size="7" font-weight="700">Excel管理シート.xlsx</text>
+                <!-- grid lines -->
+                <line x1="36" y1="126" x2="164" y2="126" stroke="#e2e8f0" stroke-width="1"/>
+                <line x1="36" y1="139" x2="164" y2="139" stroke="#e2e8f0" stroke-width="1"/>
+                <line x1="36" y1="152" x2="164" y2="152" stroke="#e2e8f0" stroke-width="1"/>
+                <line x1="36" y1="165" x2="164" y2="165" stroke="#e2e8f0" stroke-width="1"/>
+                <line x1="78" y1="112" x2="78" y2="184" stroke="#e2e8f0" stroke-width="1"/>
+                <line x1="120" y1="112" x2="120" y2="184" stroke="#e2e8f0" stroke-width="1"/>
+
+                <!-- Warning: manual work indicator -->
+                <rect x="36" y="194" width="128" height="36" rx="6" fill="#fff1f2" stroke="#fecdd3" stroke-width="1"/>
+                <text x="56" y="210" fill="#be123c" font-size="9">⚠ 手作業で集計中</text>
+                <text x="56" y="224" fill="#be123c" font-size="8">毎月 3〜4時間</text>
+
+                <!-- Question mark bubbles -->
+                <circle cx="130" cy="250" r="16" fill="#fef3c7" stroke="#fde68a" stroke-width="1"/>
+                <text x="130" y="255" text-anchor="middle" fill="#d97706" font-size="14" font-weight="700">?</text>
+                <circle cx="60" cy="256" r="12" fill="#fef3c7" stroke="#fde68a" stroke-width="1"/>
+                <text x="60" y="261" text-anchor="middle" fill="#d97706" font-size="11" font-weight="700">?</text>
+
+                <!-- Arrow center -->
+                <circle cx="220" cy="160" r="28" fill="#1a3a5c" filter="url(#sv1)"/>
+                <path d="M208 160 l12 0 M214 153 l6 7 -6 7" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <text x="220" y="198" text-anchor="middle" fill="#94a3b8" font-size="8">システム化</text>
+
+                <!-- AFTER: clean system (right) -->
+                <rect x="260" y="24" width="160" height="272" rx="10" fill="white" filter="url(#sv1)"/>
+                <text x="340" y="48" text-anchor="middle" fill="#4a90d9" font-size="9" font-weight="700">AFTER</text>
+
+                <!-- Browser chrome -->
+                <rect x="272" y="56" width="136" height="96" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+                <rect x="272" y="56" width="136" height="18" rx="6" fill="#1a3a5c"/>
+                <rect x="272" y="67" width="136" height="7" fill="#1a3a5c"/>
+                <circle cx="284" cy="65" r="3" fill="#ef4444" opacity="0.8"/>
+                <circle cx="294" cy="65" r="3" fill="#f59e42" opacity="0.8"/>
+                <circle cx="304" cy="65" r="3" fill="#22c55e" opacity="0.8"/>
+                <text x="340" y="66" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="6">勤怠管理システム</text>
+                <!-- Dashboard content -->
+                <rect x="280" y="80" width="56" height="28" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+                <text x="308" y="92" text-anchor="middle" fill="#1a3a5c" font-size="11" font-weight="700">22</text>
+                <text x="308" y="102" text-anchor="middle" fill="#94a3b8" font-size="6">出勤日数</text>
+                <rect x="344" y="80" width="56" height="28" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+                <text x="372" y="92" text-anchor="middle" fill="#22c55e" font-size="11" font-weight="700">0</text>
+                <text x="372" y="102" text-anchor="middle" fill="#94a3b8" font-size="6">遅刻</text>
+                <!-- Progress bar -->
+                <rect x="280" y="115" width="120" height="8" rx="4" fill="#e8f0f8"/>
+                <rect x="280" y="115" width="76" height="8" rx="4" fill="#4a90d9"/>
+                <text x="340" y="138" text-anchor="middle" fill="#64748b" font-size="7">今月の進捗 63%</text>
+
+                <!-- Auto icon -->
+                <rect x="272" y="162" width="136" height="32" rx="6" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1"/>
+                <text x="286" y="178" fill="#16a34a" font-size="9">✓ 集計・レポート自動化</text>
+                <text x="286" y="188" fill="#16a34a" font-size="8">作業時間: ゼロ</text>
+
+                <rect x="272" y="202" width="136" height="32" rx="6" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1"/>
+                <text x="286" y="218" fill="#16a34a" font-size="9">✓ リアルタイム把握</text>
+                <text x="286" y="228" fill="#16a34a" font-size="8">いつでも確認可能</text>
+
+                <rect x="272" y="242" width="136" height="32" rx="6" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1"/>
+                <text x="286" y="258" fill="#16a34a" font-size="9">✓ ミス・漏れをゼロに</text>
+                <text x="286" y="268" fill="#16a34a" font-size="8">自動バリデーション</text>
+              </svg>
+            </div>
+            <div class="svc-flow-text">
+              <span class="svc-flow-num">Service 01</span>
+              <h2 class="svc-flow-title">業務に合わせた<br>システム開発</h2>
+              <p class="svc-flow-lead">「Excelでの管理が限界になってきた」「同じ入力作業を毎日繰り返している」——そういった現場の不便を、ちょうどいい規模のシステムで解決します。必要以上に高機能なものは作りません。</p>
+              <div class="svc-tags">
+                <span class="svc-tag">勤怠・出勤管理</span>
+                <span class="svc-tag">売上・受注管理</span>
+                <span class="svc-tag">顧客管理</span>
+                <span class="svc-tag">在庫・発注管理</span>
+                <span class="svc-tag">日報・進捗管理</span>
+                <span class="svc-tag">社内ポータル</span>
+              </div>
+              <ul class="svc-feature-list">
+                <li>要件定義・業務フロー整理から対応</li>
+                <li>スマートフォン・PC どちらからでも利用可能</li>
+                <li>既存ツール（Google Workspace / Slack 等）との連携</li>
+                <li>リリース後の運用保守まで一貫対応</li>
+              </ul>
+              <a href="contact.html" class="btn">このサービスを相談する</a>
+            </div>
+          </div>
+
+          <!-- Service 02 -->
+          <div class="svc-flow-item svc-flow-item--reverse">
+            <div class="svc-flow-visual">
+              <svg viewBox="0 0 440 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="440" height="320" fill="#e8f0f8"/>
+                <defs>
+                  <filter id="sv2" x="-10%" y="-10%" width="120%" height="120%">
+                    <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1a3a5c" flood-opacity="0.10"/>
+                  </filter>
+                </defs>
+
+                <!-- Old system (left) -->
+                <rect x="20" y="40" width="148" height="240" rx="10" fill="white" filter="url(#sv2)" opacity="0.85"/>
+                <rect x="20" y="40" width="148" height="28" rx="10" fill="#64748b"/>
+                <rect x="20" y="60" width="148" height="8" fill="#64748b"/>
+                <text x="94" y="57" text-anchor="middle" fill="white" font-size="9">旧システム</text>
+                <!-- Screen with error state -->
+                <rect x="32" y="78" width="124" height="70" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+                <circle cx="94" cy="113" r="20" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+                <text x="94" y="117" text-anchor="middle" fill="#ef4444" font-size="18" font-weight="900">!</text>
+                <!-- Loading spinner hint -->
+                <path d="M94 82 a8 8 0 0 1 8 8" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" fill="none"/>
+                <text x="94" y="142" text-anchor="middle" fill="#94a3b8" font-size="7">エラー頻発</text>
+
+                <!-- Issue tags -->
+                <rect x="32" y="158" width="124" height="18" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+                <text x="42" y="170" fill="#ef4444" font-size="8">✗ レスポンスが遅い (8秒)</text>
+                <rect x="32" y="182" width="124" height="18" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+                <text x="42" y="194" fill="#ef4444" font-size="8">✗ スマホ非対応</text>
+                <rect x="32" y="206" width="124" height="18" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+                <text x="42" y="218" fill="#ef4444" font-size="8">✗ 担当者しか触れない</text>
+                <rect x="32" y="230" width="124" height="18" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+                <text x="42" y="242" fill="#ef4444" font-size="8">✗ セキュリティリスク</text>
+                <text x="94" y="268" text-anchor="middle" fill="#94a3b8" font-size="8">…使い続けることに不安</text>
+
+                <!-- Center upgrade arrow -->
+                <rect x="180" y="136" width="80" height="48" rx="8" fill="#1a3a5c" filter="url(#sv2)"/>
+                <text x="220" y="155" text-anchor="middle" fill="white" font-size="8" font-weight="700">診断 &amp;</text>
+                <text x="220" y="167" text-anchor="middle" fill="white" font-size="8" font-weight="700">改善提案</text>
+                <path d="M208 175 l12 0 M214 169 l6 6 -6 6" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" fill="none"/>
+
+                <!-- New system (right) -->
+                <rect x="272" y="40" width="148" height="240" rx="10" fill="white" filter="url(#sv2)"/>
+                <rect x="272" y="40" width="148" height="28" rx="10" fill="#1a3a5c"/>
+                <rect x="272" y="60" width="148" height="8" fill="#1a3a5c"/>
+                <text x="346" y="57" text-anchor="middle" fill="white" font-size="9">改善後</text>
+
+                <!-- Speed indicator -->
+                <rect x="284" y="78" width="124" height="70" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+                <!-- Speedometer arc -->
+                <path d="M346 128 a28 28 0 0 1 28-28" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <path d="M346 128 a28 28 0 0 0 -28-28" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <path d="M346 128 a28 28 0 0 1 24-14" stroke="#22c55e" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <circle cx="346" cy="100" r="8" fill="#22c55e"/>
+                <text x="346" y="104" text-anchor="middle" fill="white" font-size="6" font-weight="700">高速</text>
+                <text x="346" y="138" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">0.8秒</text>
+                <text x="346" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">応答速度 10倍改善</text>
+
+                <!-- Improvement tags -->
+                <rect x="284" y="158" width="124" height="18" rx="4" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+                <text x="294" y="170" fill="#16a34a" font-size="8">✓ レスポンス 0.8秒以下</text>
+                <rect x="284" y="182" width="124" height="18" rx="4" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+                <text x="294" y="194" fill="#16a34a" font-size="8">✓ スマホ完全対応</text>
+                <rect x="284" y="206" width="124" height="18" rx="4" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+                <text x="294" y="218" fill="#16a34a" font-size="8">✓ 誰でも使えるUI</text>
+                <rect x="284" y="230" width="124" height="18" rx="4" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+                <text x="294" y="242" fill="#16a34a" font-size="8">✓ セキュリティ強化済</text>
+                <text x="346" y="268" text-anchor="middle" fill="#4a90d9" font-size="8" font-weight="700">安心して使い続けられる</text>
+              </svg>
+            </div>
+            <div class="svc-flow-text">
+              <span class="svc-flow-num">Service 02</span>
+              <h2 class="svc-flow-title">既存システムの<br>改善・最適化</h2>
+              <p class="svc-flow-lead">「動いているが遅い」「使いにくいが変更できない」「担当者しか触れない」——そういった既存システムの問題を診断し、最小限の変更で最大の改善を図ります。</p>
+              <div class="svc-tags">
+                <span class="svc-tag">パフォーマンス改善</span>
+                <span class="svc-tag">UI/UX改善</span>
+                <span class="svc-tag">セキュリティ診断</span>
+                <span class="svc-tag">レガシーコード整理</span>
+                <span class="svc-tag">スマホ対応</span>
+                <span class="svc-tag">技術負債解消</span>
+              </div>
+              <ul class="svc-feature-list">
+                <li>現状コードの診断・問題箇所の特定から開始</li>
+                <li>壊さずに改善する段階的アプローチ</li>
+                <li>改善前後の効果を数値で確認できる</li>
+                <li>「作り直し」か「改修」かの判断も含めて提案</li>
+              </ul>
+              <a href="contact.html" class="btn">このサービスを相談する</a>
+            </div>
+          </div>
+
+          <!-- Service 03 -->
+          <div class="svc-flow-item">
+            <div class="svc-flow-visual">
+              <svg viewBox="0 0 440 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="440" height="320" fill="#e8f0f8"/>
+                <defs>
+                  <filter id="sv3" x="-10%" y="-10%" width="120%" height="120%">
+                    <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1a3a5c" flood-opacity="0.10"/>
+                  </filter>
+                </defs>
+
+                <!-- Client icon (left) -->
+                <circle cx="88" cy="88" r="32" fill="white" filter="url(#sv3)"/>
+                <circle cx="88" cy="80" r="14" fill="#e8f0f8"/>
+                <circle cx="88" cy="76" r="8" fill="#4a90d9"/>
+                <path d="M68 96 q20-16 40 0" stroke="#4a90d9" stroke-width="2" fill="none"/>
+                <text x="88" y="130" text-anchor="middle" fill="#64748b" font-size="9">クライアント</text>
+
+                <!-- Speech bubble from client -->
+                <rect x="28" y="148" width="120" height="56" rx="8" fill="white" filter="url(#sv3)"/>
+                <polygon points="60,148 50,132 80,148" fill="white"/>
+                <text x="88" y="167" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">「何から始めれば</text>
+                <text x="88" y="180" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">いいか分からない」</text>
+                <text x="88" y="195" text-anchor="middle" fill="#94a3b8" font-size="7">「本当に必要？」</text>
+
+                <!-- tech-iro icon (right) -->
+                <circle cx="352" cy="88" r="32" fill="#1a3a5c" filter="url(#sv3)"/>
+                <text x="352" y="84" text-anchor="middle" fill="white" font-size="8" font-weight="700">tech</text>
+                <text x="352" y="96" text-anchor="middle" fill="#4a90d9" font-size="8" font-weight="700">-iro</text>
+                <text x="352" y="130" text-anchor="middle" fill="#64748b" font-size="9">テクイロ</text>
+
+                <!-- Speech bubble from tech-iro -->
+                <rect x="292" y="148" width="120" height="56" rx="8" fill="white" filter="url(#sv3)"/>
+                <polygon points="320,148 340,132 360,148" fill="white"/>
+                <text x="352" y="167" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">「まず課題を</text>
+                <text x="352" y="180" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">整理しましょう」</text>
+                <text x="352" y="195" text-anchor="middle" fill="#94a3b8" font-size="7">費用ゼロで初回相談可</text>
+
+                <!-- Connection line -->
+                <line x1="128" y1="88" x2="312" y2="88" stroke="#bfdbfe" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+                <!-- Output: Plan document -->
+                <rect x="100" y="224" width="240" height="80" rx="10" fill="white" filter="url(#sv3)"/>
+                <rect x="100" y="224" width="240" height="24" rx="10" fill="#1a3a5c"/>
+                <rect x="100" y="240" width="240" height="8" fill="#1a3a5c"/>
+                <text x="220" y="239" text-anchor="middle" fill="white" font-size="9" font-weight="700">ヒアリング後に提示するもの</text>
+                <!-- 3 output items -->
+                <circle cx="124" cy="265" r="5" fill="#4a90d9"/>
+                <text x="136" y="269" fill="#1a3a5c" font-size="8" font-weight="700">課題の整理と優先順位</text>
+                <circle cx="124" cy="283" r="5" fill="#4a90d9"/>
+                <text x="136" y="287" fill="#1a3a5c" font-size="8" font-weight="700">開発範囲と概算見積もり</text>
+                <circle cx="290" cy="265" r="5" fill="#4a90d9"/>
+                <text x="302" y="269" fill="#1a3a5c" font-size="8" font-weight="700">スケジュール案</text>
+                <circle cx="290" cy="283" r="5" fill="#4a90d9"/>
+                <text x="302" y="287" fill="#1a3a5c" font-size="8" font-weight="700">「不要」の判断も提案</text>
+
+                <!-- Arrow down to doc -->
+                <line x1="220" y1="208" x2="220" y2="220" stroke="#4a90d9" stroke-width="2"/>
+                <polygon points="220,224 215,216 225,216" fill="#4a90d9"/>
+              </svg>
+            </div>
+            <div class="svc-flow-text">
+              <span class="svc-flow-num">Service 03</span>
+              <h2 class="svc-flow-title">構想段階からの<br>相談・サポート</h2>
+              <p class="svc-flow-lead">「システムが本当に必要か」から一緒に考えます。何をどう作るか決まっていなくても大丈夫。ヒアリングを通じて課題を整理し、必要なものと不要なものを仕分けした上で提案します。</p>
+              <div class="svc-tags">
+                <span class="svc-tag">初回相談無料</span>
+                <span class="svc-tag">業務フロー整理</span>
+                <span class="svc-tag">要件定義</span>
+                <span class="svc-tag">仕様書作成</span>
+                <span class="svc-tag">費用・期間の試算</span>
+                <span class="svc-tag">外注先選定サポート</span>
+              </div>
+              <ul class="svc-feature-list">
+                <li>「システムを作らない」という選択肢も含めて提案</li>
+                <li>Excel・既存ツールで代替できる場合は正直に伝える</li>
+                <li>ヒアリング後に課題整理・概算見積もりを提示</li>
+                <li>そのまま開発依頼しなくても構わない</li>
+              </ul>
+              <a href="contact.html" class="btn">まず相談してみる</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Flow -->
+    <section class="section svc-process-section">
+      <div class="container">
+        <p class="section-label">Flow</p>
+        <h2 class="section-title">進め方</h2>
+        <div class="divider"></div>
+        <div class="svc-process-steps">
+
+          <div class="svc-process-step">
+            <div class="svc-process-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </div>
+            <p class="svc-process-num">01</p>
+            <p class="svc-process-title">無料ヒアリング</p>
+            <p class="svc-process-desc">現状の課題と「本当に解決したいこと」を一緒に整理します。</p>
+          </div>
+
+          <div class="svc-process-connector" aria-hidden="true"></div>
+
+          <div class="svc-process-step">
+            <div class="svc-process-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+                <polyline points="10 9 9 9 8 9"/>
+              </svg>
+            </div>
+            <p class="svc-process-num">02</p>
+            <p class="svc-process-title">要件整理・提案</p>
+            <p class="svc-process-desc">開発範囲・スケジュール・概算費用を整理してご提案します。</p>
+          </div>
+
+          <div class="svc-process-connector" aria-hidden="true"></div>
+
+          <div class="svc-process-step">
+            <div class="svc-process-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </div>
+            <p class="svc-process-num">03</p>
+            <p class="svc-process-title">開発・実装</p>
+            <p class="svc-process-desc">定期的に進捗を共有しながら開発を進めます。途中変更も相談可。</p>
+          </div>
+
+          <div class="svc-process-connector" aria-hidden="true"></div>
+
+          <div class="svc-process-step">
+            <div class="svc-process-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 11 12 14 22 4"/>
+                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+              </svg>
+            </div>
+            <p class="svc-process-num">04</p>
+            <p class="svc-process-title">テスト・確認</p>
+            <p class="svc-process-desc">実際に使っていただきながらフィードバックをもとに調整します。</p>
+          </div>
+
+          <div class="svc-process-connector" aria-hidden="true"></div>
+
+          <div class="svc-process-step">
+            <div class="svc-process-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <p class="svc-process-num">05</p>
+            <p class="svc-process-title">納品・運用保守</p>
+            <p class="svc-process-desc">リリース後も担当者変わらず継続サポート。安心して使い続けられます。</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="container" style="text-align: center;">
+        <p class="section-label">Contact</p>
+        <h2 class="section-title">まずは話してみてください</h2>
+        <div class="divider"></div>
+        <p style="color: var(--mid-gray); margin: 24px 0 32px; font-size: 0.95rem; line-height: 1.9;">どのサービスが合うか分からなくても大丈夫です。<br>現状の課題をざっくり教えていただければ、最適な進め方をご提案します。</p>
+        <a href="contact.html" class="btn">無料で相談する</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-logo">tech-iro</p>
+          <p class="footer-tagline">システムを導入することが目的ではない。本来やりたいことに集中できる状態をつくること。</p>
+        </div>
+        <div class="footer-nav">
+          <div class="footer-nav-col">
+            <p class="footer-nav-col-title">Menu</p>
+            <ul class="footer-nav-list">
+              <li><a href="works.html">実績</a></li>
+              <li><a href="services.html">サービス</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-col">
+            <p class="footer-nav-col-title">Contact</p>
+            <ul class="footer-nav-list">
+              <li><a href="mailto:contact@tech-iro.com">contact@tech-iro.com</a></li>
+              <li><span style="font-size: 0.8rem; color: var(--mid-gray);">平日 9:00 - 18:00</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 tech-iro. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
