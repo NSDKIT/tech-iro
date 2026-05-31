@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 320" fill="none">
+  <defs>
+    <filter id="f-md" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1a3a5c" flood-opacity="0.10"/>
+    </filter>
+    <filter id="f-lg" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1a3a5c" flood-opacity="0.12"/>
+    </filter>
+    <filter id="f-sm" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1a3a5c" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+                <rect width="440" height="320" fill="#e8f0f8"/>
+                <rect x="20" y="40" width="148" height="240" rx="10" fill="white" filter="url(#f-md)" opacity="0.85"/>
+                <rect x="20" y="40" width="148" height="28" rx="10" fill="#64748b"/>
+                <rect x="20" y="60" width="148" height="8" fill="#64748b"/>
+                <text x="94" y="57" text-anchor="middle" fill="white" font-size="9">旧システム</text>
+                
+                <rect x="32" y="78" width="124" height="70" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+                <circle cx="94" cy="113" r="20" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+                <text x="94" y="117" text-anchor="middle" fill="#ef4444" font-size="18" font-weight="900">!</text>
+                
+                <path d="M94 82 a8 8 0 0 1 8 8" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" fill="none"/>
+                <text x="94" y="142" text-anchor="middle" fill="#94a3b8" font-size="7">エラー頻発</text>
+                <rect x="32" y="158" width="124" height="18" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+                <text x="42" y="170" fill="#ef4444" font-size="8">✗ レスポンスが遅い (8秒)</text>
+                <rect x="32" y="182" width="124" height="18" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+                <text x="42" y="194" fill="#ef4444" font-size="8">✗ スマホ非対応</text>
+                <rect x="32" y="206" width="124" height="18" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+                <text x="42" y="218" fill="#ef4444" font-size="8">✗ 担当者しか触れない</text>
+                <rect x="32" y="230" width="124" height="18" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+                <text x="42" y="242" fill="#ef4444" font-size="8">✗ セキュリティリスク</text>
+                <text x="94" y="268" text-anchor="middle" fill="#94a3b8" font-size="8">…使い続けることに不安</text>
+                <rect x="180" y="136" width="80" height="48" rx="8" fill="#1a3a5c" filter="url(#f-md)"/>
+                <text x="220" y="155" text-anchor="middle" fill="white" font-size="8" font-weight="700">診断 &amp;</text>
+                <text x="220" y="167" text-anchor="middle" fill="white" font-size="8" font-weight="700">改善提案</text>
+                <path d="M208 175 l12 0 M214 169 l6 6 -6 6" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" fill="none"/>
+                <rect x="272" y="40" width="148" height="240" rx="10" fill="white" filter="url(#f-md)"/>
+                <rect x="272" y="40" width="148" height="28" rx="10" fill="#1a3a5c"/>
+                <rect x="272" y="60" width="148" height="8" fill="#1a3a5c"/>
+                <text x="346" y="57" text-anchor="middle" fill="white" font-size="9">改善後</text>
+                <rect x="284" y="78" width="124" height="70" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+                
+                <path d="M346 128 a28 28 0 0 1 28-28" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <path d="M346 128 a28 28 0 0 0 -28-28" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <path d="M346 128 a28 28 0 0 1 24-14" stroke="#22c55e" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <circle cx="346" cy="100" r="8" fill="#22c55e"/>
+                <text x="346" y="104" text-anchor="middle" fill="white" font-size="6" font-weight="700">高速</text>
+                <text x="346" y="138" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">0.8秒</text>
+                <text x="346" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">応答速度 10倍改善</text>
+                <rect x="284" y="158" width="124" height="18" rx="4" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+                <text x="294" y="170" fill="#16a34a" font-size="8">✓ レスポンス 0.8秒以下</text>
+                <rect x="284" y="182" width="124" height="18" rx="4" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+                <text x="294" y="194" fill="#16a34a" font-size="8">✓ スマホ完全対応</text>
+                <rect x="284" y="206" width="124" height="18" rx="4" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+                <text x="294" y="218" fill="#16a34a" font-size="8">✓ 誰でも使えるUI</text>
+                <rect x="284" y="230" width="124" height="18" rx="4" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+                <text x="294" y="242" fill="#16a34a" font-size="8">✓ セキュリティ強化済</text>
+                <text x="346" y="268" text-anchor="middle" fill="#4a90d9" font-size="8" font-weight="700">安心して使い続けられる</text>
+              </svg>

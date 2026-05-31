@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 196" fill="none" preserveAspectRatio="xMidYMid slice">
+                <rect width="480" height="196" fill="#edf3fa"/>
+                <rect x="16" y="24" width="130" height="148" rx="8" fill="white" stroke="#d4dde8" stroke-width="1"/>
+                <rect x="16" y="24" width="130" height="28" rx="8" fill="#1a3a5c" opacity="0.08"/>
+                <rect x="16" y="40" width="130" height="12" fill="#1a3a5c" opacity="0.08"/>
+                <rect x="28" y="31" width="60" height="7" rx="2" fill="#1a3a5c" opacity="0.35"/>
+                
+                <rect x="28" y="58" width="88" height="8" rx="2" fill="#1a3a5c" opacity="0.6"/>
+                <rect x="28" y="72" width="72" height="8" rx="2" fill="#1a3a5c" opacity="0.4"/>
+                <rect x="28" y="86" width="96" height="8" rx="2" fill="#1a3a5c" opacity="0.4"/>
+                <rect x="28" y="100" width="64" height="8" rx="2" fill="#1a3a5c" opacity="0.4"/>
+                <rect x="28" y="114" width="80" height="8" rx="2" fill="#1a3a5c" opacity="0.3"/>
+                <rect x="28" y="128" width="76" height="8" rx="2" fill="#1a3a5c" opacity="0.2"/>
+                <rect x="28" y="142" width="52" height="8" rx="2" fill="#1a3a5c" opacity="0.15"/>
+                
+                <rect x="28" y="58" width="26" height="8" rx="4" fill="#1a3a5c"/>
+                <rect x="58" y="58" width="26" height="8" rx="4" fill="#1a3a5c" opacity="0.15"/>
+                
+                <line x1="156" y1="98" x2="184" y2="98" stroke="#1a3a5c" stroke-width="1.5" stroke-dasharray="3 2" opacity="0.5"/>
+                <polygon points="184,94 192,98 184,102" fill="#1a3a5c" opacity="0.5"/>
+                
+                <rect x="194" y="52" width="96" height="92" rx="8" fill="#1a3a5c"/>
+                <circle cx="242" cy="98" r="28" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" fill="none"/>
+                <circle cx="242" cy="98" r="18" stroke="rgba(255,255,255,0.3)" stroke-width="1" fill="none"/>
+                
+                <circle cx="242" cy="70" r="4" fill="rgba(255,255,255,0.3)"/>
+                <circle cx="242" cy="126" r="4" fill="rgba(255,255,255,0.3)"/>
+                <circle cx="214" cy="98" r="4" fill="rgba(255,255,255,0.3)"/>
+                <circle cx="270" cy="98" r="4" fill="rgba(255,255,255,0.3)"/>
+                
+                <circle cx="242" cy="98" r="7" fill="rgba(255,255,255,0.6)"/>
+                
+                <rect x="222" y="144" width="40" height="14" rx="4" fill="rgba(255,255,255,0.15)"/>
+                <rect x="228" y="148" width="28" height="6" rx="2" fill="rgba(255,255,255,0.6)"/>
+                
+                <line x1="300" y1="98" x2="328" y2="98" stroke="#1a3a5c" stroke-width="1.5" stroke-dasharray="3 2" opacity="0.5"/>
+                <polygon points="328,94 336,98 328,102" fill="#1a3a5c" opacity="0.5"/>
+                
+                <rect x="338" y="24" width="130" height="148" rx="8" fill="white" stroke="#d4dde8" stroke-width="1"/>
+                <rect x="338" y="24" width="130" height="28" rx="8" fill="#1a3a5c" opacity="0.08"/>
+                <rect x="338" y="40" width="130" height="12" fill="#1a3a5c" opacity="0.08"/>
+                <rect x="350" y="31" width="60" height="7" rx="2" fill="#1a3a5c" opacity="0.35"/>
+                
+                <rect x="350" y="56" width="106" height="28" rx="4" fill="#f0f5fb"/>
+                <rect x="358" y="63" width="76" height="7" rx="2" fill="#1a3a5c" opacity="0.55"/>
+                <rect x="358" y="75" width="52" height="5" rx="1" fill="#b8c5d0"/>
+                <rect x="350" y="90" width="106" height="28" rx="4" fill="#f0f5fb"/>
+                <rect x="358" y="97" width="68" height="7" rx="2" fill="#1a3a5c" opacity="0.55"/>
+                <rect x="358" y="109" width="44" height="5" rx="1" fill="#b8c5d0"/>
+                <rect x="350" y="124" width="106" height="28" rx="4" fill="#f0f5fb"/>
+                <rect x="358" y="131" width="80" height="7" rx="2" fill="#1a3a5c" opacity="0.55"/>
+                <rect x="358" y="143" width="52" height="5" rx="1" fill="#b8c5d0"/>
+                
+                <rect x="350" y="158" width="106" height="6" rx="2" fill="#e8f0f8"/>
+                <rect x="350" y="158" width="80" height="6" rx="2" fill="#1a3a5c" opacity="0.4"/>
+              </svg>

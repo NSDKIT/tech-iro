@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" fill="none" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="f-md" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1a3a5c" flood-opacity="0.10"/>
+    </filter>
+    <filter id="f-lg" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1a3a5c" flood-opacity="0.12"/>
+    </filter>
+    <filter id="f-sm" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1a3a5c" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+                <rect width="360" height="280" fill="#e8f0f8"/>
+                <rect x="20" y="24" width="96" height="236" rx="8" fill="white" filter="url(#f-sm)"/>
+                <rect x="20" y="24" width="96" height="28" rx="8" fill="#e2e8f0"/>
+                <rect x="20" y="44" width="96" height="8" fill="#e2e8f0"/>
+                <text x="68" y="42" text-anchor="middle" fill="#64748b" font-size="10" font-weight="700">未着手</text>
+                <rect x="28" y="62" width="80" height="52" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+                <text x="68" y="78" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">機能設計書</text>
+                <text x="68" y="90" text-anchor="middle" fill="#94a3b8" font-size="7">担当: 山田</text>
+                <rect x="36" y="96" width="36" height="10" rx="3" fill="#fef3c7"/>
+                <text x="54" y="104" text-anchor="middle" fill="#d97706" font-size="7">高優先度</text>
+                <rect x="28" y="124" width="80" height="52" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+                <text x="68" y="140" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">テスト計画書</text>
+                <text x="68" y="152" text-anchor="middle" fill="#94a3b8" font-size="7">担当: 鈴木</text>
+                <rect x="36" y="158" width="36" height="10" rx="3" fill="#f1f5f9"/>
+                <text x="54" y="166" text-anchor="middle" fill="#64748b" font-size="7">通常</text>
+                
+                <rect x="132" y="24" width="96" height="236" rx="8" fill="white" filter="url(#f-sm)"/>
+                <rect x="132" y="24" width="96" height="28" rx="8" fill="#1a3a5c"/>
+                <rect x="132" y="44" width="96" height="8" fill="#1a3a5c"/>
+                <text x="180" y="42" text-anchor="middle" fill="white" font-size="10" font-weight="700">進行中</text>
+                <rect x="140" y="62" width="80" height="64" rx="6" fill="white" stroke="#4a90d9" stroke-width="1.5"/>
+                <text x="180" y="78" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">API実装</text>
+                <text x="180" y="90" text-anchor="middle" fill="#94a3b8" font-size="7">担当: 田中</text>
+                
+                <rect x="148" y="96" width="64" height="6" rx="3" fill="#e8f0f8"/>
+                <rect x="148" y="96" width="44" height="6" rx="3" fill="#4a90d9"/>
+                <text x="180" y="114" text-anchor="middle" fill="#4a90d9" font-size="7" font-weight="700">68%完了</text>
+                <rect x="140" y="138" width="80" height="52" rx="6" fill="white" stroke="#4a90d9" stroke-width="1.5"/>
+                <text x="180" y="154" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">フロント修正</text>
+                <text x="180" y="166" text-anchor="middle" fill="#94a3b8" font-size="7">担当: 佐藤</text>
+                <rect x="148" y="172" width="64" height="6" rx="3" fill="#e8f0f8"/>
+                <rect x="148" y="172" width="24" height="6" rx="3" fill="#4a90d9"/>
+                <text x="180" y="188" text-anchor="middle" fill="#4a90d9" font-size="7" font-weight="700">37%完了</text>
+                
+                <rect x="244" y="24" width="96" height="236" rx="8" fill="white" filter="url(#f-sm)"/>
+                <rect x="244" y="24" width="96" height="28" rx="8" fill="#22c55e" opacity="0.8"/>
+                <rect x="244" y="44" width="96" height="8" fill="#22c55e" opacity="0.8"/>
+                <text x="292" y="42" text-anchor="middle" fill="white" font-size="10" font-weight="700">完了</text>
+                <rect x="252" y="62" width="80" height="46" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+                <text x="292" y="78" text-anchor="middle" fill="#94a3b8" font-size="8">要件定義</text>
+                <circle cx="280" cy="91" r="7" fill="#dcfce7"/>
+                <path d="M276 91 l3 3 5-5" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <rect x="252" y="118" width="80" height="46" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+                <text x="292" y="134" text-anchor="middle" fill="#94a3b8" font-size="8">DB設計</text>
+                <circle cx="280" cy="147" r="7" fill="#dcfce7"/>
+                <path d="M276 147 l3 3 5-5" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <rect x="252" y="174" width="80" height="46" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+                <text x="292" y="190" text-anchor="middle" fill="#94a3b8" font-size="8">環境構築</text>
+                <circle cx="280" cy="203" r="7" fill="#dcfce7"/>
+                <path d="M276 203 l3 3 5-5" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>

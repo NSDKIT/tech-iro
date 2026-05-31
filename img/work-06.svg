@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" fill="none" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="f-md" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1a3a5c" flood-opacity="0.10"/>
+    </filter>
+    <filter id="f-lg" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1a3a5c" flood-opacity="0.12"/>
+    </filter>
+    <filter id="f-sm" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1a3a5c" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+                <rect width="360" height="280" fill="#e8f0f8"/>
+                
+                <rect x="20" y="24" width="188" height="232" rx="10" fill="white" filter="url(#f-md)"/>
+                <text x="114" y="44" text-anchor="middle" fill="#1a3a5c" font-size="10" font-weight="700">商品一覧</text>
+                
+                <rect x="32" y="52" width="52" height="52" rx="6" fill="#e8f0f8"/>
+                <rect x="44" y="62" width="28" height="28" rx="3" fill="#4a90d9" opacity="0.6"/>
+                <text x="58" y="116" text-anchor="middle" fill="#1a3a5c" font-size="7" font-weight="700">商品A</text>
+                <text x="58" y="126" text-anchor="middle" fill="#4a90d9" font-size="7">¥3,800</text>
+                <rect x="96" y="52" width="52" height="52" rx="6" fill="#e8f0f8"/>
+                <rect x="108" y="62" width="28" height="28" rx="3" fill="#f59e42" opacity="0.6"/>
+                <text x="122" y="116" text-anchor="middle" fill="#1a3a5c" font-size="7" font-weight="700">商品B</text>
+                <text x="122" y="126" text-anchor="middle" fill="#4a90d9" font-size="7">¥5,200</text>
+                <rect x="32" y="134" width="52" height="52" rx="6" fill="#e8f0f8"/>
+                <rect x="44" y="144" width="28" height="28" rx="3" fill="#22c55e" opacity="0.6"/>
+                <text x="58" y="198" text-anchor="middle" fill="#1a3a5c" font-size="7" font-weight="700">商品C</text>
+                <text x="58" y="208" text-anchor="middle" fill="#4a90d9" font-size="7">¥2,100</text>
+                <rect x="96" y="134" width="52" height="52" rx="6" fill="#e8f0f8"/>
+                <rect x="108" y="144" width="28" height="28" rx="3" fill="#1a3a5c" opacity="0.5"/>
+                <text x="122" y="198" text-anchor="middle" fill="#1a3a5c" font-size="7" font-weight="700">商品D</text>
+                <text x="122" y="208" text-anchor="middle" fill="#4a90d9" font-size="7">¥7,800</text>
+                
+                <rect x="32" y="216" width="116" height="28" rx="6" fill="#1a3a5c"/>
+                <text x="90" y="234" text-anchor="middle" fill="white" font-size="9" font-weight="700">カートに追加</text>
+                <text x="288" y="32" text-anchor="middle" fill="#1a3a5c" font-size="10" font-weight="700">注文フロー</text>
+                
+                <rect x="228" y="42" width="120" height="36" rx="6" fill="white" stroke="#4a90d9" stroke-width="1.5"/>
+                <text x="288" y="58" text-anchor="middle" fill="#1a3a5c" font-size="9" font-weight="700">注文受付</text>
+                <text x="288" y="70" text-anchor="middle" fill="#94a3b8" font-size="7">自動確認メール送信</text>
+                <line x1="288" y1="78" x2="288" y2="94" stroke="#4a90d9" stroke-width="1.5"/>
+                <polygon points="288,96 283,88 293,88" fill="#4a90d9"/>
+                <rect x="228" y="96" width="120" height="36" rx="6" fill="white" stroke="#4a90d9" stroke-width="1.5"/>
+                <text x="288" y="112" text-anchor="middle" fill="#1a3a5c" font-size="9" font-weight="700">在庫確認</text>
+                <text x="288" y="124" text-anchor="middle" fill="#94a3b8" font-size="7">在庫DB自動照合</text>
+                <line x1="288" y1="132" x2="288" y2="148" stroke="#4a90d9" stroke-width="1.5"/>
+                <polygon points="288,150 283,142 293,142" fill="#4a90d9"/>
+                <rect x="228" y="150" width="120" height="36" rx="6" fill="white" stroke="#4a90d9" stroke-width="1.5"/>
+                <text x="288" y="166" text-anchor="middle" fill="#1a3a5c" font-size="9" font-weight="700">決済処理</text>
+                <text x="288" y="178" text-anchor="middle" fill="#94a3b8" font-size="7">Stripe連携</text>
+                <line x1="288" y1="186" x2="288" y2="202" stroke="#4a90d9" stroke-width="1.5"/>
+                <polygon points="288,204 283,196 293,196" fill="#4a90d9"/>
+                <rect x="228" y="204" width="120" height="36" rx="6" fill="#1a3a5c"/>
+                <text x="288" y="220" text-anchor="middle" fill="white" font-size="9" font-weight="700">発送指示</text>
+                <text x="288" y="232" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="7">倉庫システム連携</text>
+              </svg>

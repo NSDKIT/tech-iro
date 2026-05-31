@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" fill="none" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="f-md" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1a3a5c" flood-opacity="0.10"/>
+    </filter>
+    <filter id="f-lg" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1a3a5c" flood-opacity="0.12"/>
+    </filter>
+    <filter id="f-sm" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1a3a5c" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+                <rect width="360" height="280" fill="#e8f0f8"/>
+                
+                <rect x="28" y="24" width="304" height="232" rx="12" fill="white" filter="url(#f-lg)"/>
+                
+                <rect x="28" y="24" width="304" height="32" rx="12" fill="#f1f5f9"/>
+                <rect x="28" y="48" width="304" height="8" fill="#f1f5f9"/>
+                
+                <circle cx="50" cy="40" r="5" fill="#ef4444"/>
+                <circle cx="66" cy="40" r="5" fill="#f59e42"/>
+                <circle cx="82" cy="40" r="5" fill="#22c55e"/>
+                
+                <rect x="100" y="33" width="180" height="14" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+                <text x="190" y="43" text-anchor="middle" fill="#94a3b8" font-size="7">www.example-corp.co.jp</text>
+                
+                <rect x="28" y="56" width="304" height="72" fill="#1a3a5c"/>
+                <text x="180" y="82" text-anchor="middle" fill="white" font-size="9" font-weight="700">わたしたちが</text>
+                <text x="180" y="95" text-anchor="middle" fill="white" font-size="12" font-weight="700">社会を豊かにする</text>
+                <rect x="148" y="104" width="64" height="18" rx="5" fill="#4a90d9"/>
+                <text x="180" y="116" text-anchor="middle" fill="white" font-size="8" font-weight="700">詳しく見る</text>
+                
+                <rect x="28" y="128" width="304" height="60" fill="white"/>
+                <text x="180" y="144" text-anchor="middle" fill="#94a3b8" font-size="8">事業内容</text>
+                
+                <rect x="44" y="150" width="78" height="28" rx="4" fill="#e8f0f8"/>
+                <text x="83" y="168" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">サービスA</text>
+                <rect x="141" y="150" width="78" height="28" rx="4" fill="#e8f0f8"/>
+                <text x="180" y="168" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">サービスB</text>
+                <rect x="238" y="150" width="78" height="28" rx="4" fill="#e8f0f8"/>
+                <text x="277" y="168" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">サービスC</text>
+                
+                <rect x="28" y="188" width="304" height="68" fill="#f8fafc"/>
+                <rect x="40" y="198" width="120" height="48" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+                <text x="100" y="214" text-anchor="middle" fill="#94a3b8" font-size="8">会社概要</text>
+                <text x="100" y="228" text-anchor="middle" fill="#1a3a5c" font-size="7">設立: 2018年</text>
+                <text x="100" y="240" text-anchor="middle" fill="#1a3a5c" font-size="7">所在地: 東京都</text>
+                
+                <rect x="200" y="200" width="108" height="36" rx="6" fill="#1a3a5c"/>
+                <text x="254" y="214" text-anchor="middle" fill="white" font-size="8" font-weight="700">お問い合わせ</text>
+                <text x="254" y="228" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="7">info@example.co.jp</text>
+              </svg>

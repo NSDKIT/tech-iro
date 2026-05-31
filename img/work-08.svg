@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" fill="none" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="f-md" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1a3a5c" flood-opacity="0.10"/>
+    </filter>
+    <filter id="f-lg" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1a3a5c" flood-opacity="0.12"/>
+    </filter>
+    <filter id="f-sm" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1a3a5c" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+                <rect width="360" height="280" fill="#e8f0f8"/>
+                
+                <rect x="16" y="60" width="88" height="160" rx="8" fill="white" filter="url(#f-md)"/>
+                <rect x="16" y="60" width="88" height="24" rx="8" fill="#e8f0f8"/>
+                <rect x="16" y="76" width="88" height="8" fill="#e8f0f8"/>
+                <text x="60" y="75" text-anchor="middle" fill="#1a3a5c" font-size="8" font-weight="700">キーワード</text>
+                <rect x="24" y="96" width="72" height="14" rx="4" fill="#e8f0f8"/>
+                <text x="60" y="106" text-anchor="middle" fill="#64748b" font-size="7">業務効率化 方法</text>
+                <rect x="24" y="118" width="72" height="14" rx="4" fill="#e8f0f8"/>
+                <text x="60" y="128" text-anchor="middle" fill="#64748b" font-size="7">社内システム 導入</text>
+                <rect x="24" y="140" width="72" height="14" rx="4" fill="#e8f0f8"/>
+                <text x="60" y="150" text-anchor="middle" fill="#64748b" font-size="7">DX推進 中小企業</text>
+                <rect x="24" y="162" width="72" height="14" rx="4" fill="#4a90d9" opacity="0.3"/>
+                <text x="60" y="172" text-anchor="middle" fill="#1a3a5c" font-size="7">+ キーワード追加</text>
+                <text x="60" y="44" text-anchor="middle" fill="#94a3b8" font-size="8">① 入力</text>
+                <line x1="108" y1="140" x2="128" y2="140" stroke="#4a90d9" stroke-width="2"/>
+                <polygon points="130,140 122,135 122,145" fill="#4a90d9"/>
+                <circle cx="180" cy="140" r="48" fill="#1a3a5c" filter="url(#f-md)"/>
+                <circle cx="180" cy="140" r="40" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+                
+                <circle cx="180" cy="128" r="12" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+                <circle cx="180" cy="128" r="4" fill="rgba(255,255,255,0.7)"/>
+                <line x1="180" y1="114" x2="180" y2="110" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+                <line x1="180" y1="142" x2="180" y2="146" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+                <line x1="166" y1="128" x2="162" y2="128" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+                <line x1="194" y1="128" x2="198" y2="128" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+                <text x="180" y="152" text-anchor="middle" fill="white" font-size="9" font-weight="700">AI自動生成</text>
+                <text x="180" y="164" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="7">構成 → 執筆 → 校正</text>
+                <text x="180" y="44" text-anchor="middle" fill="#94a3b8" font-size="8">② 自動処理</text>
+                <line x1="232" y1="140" x2="252" y2="140" stroke="#4a90d9" stroke-width="2"/>
+                <polygon points="254,140 246,135 246,145" fill="#4a90d9"/>
+                <rect x="256" y="60" width="88" height="160" rx="8" fill="white" filter="url(#f-md)"/>
+                <rect x="256" y="60" width="88" height="24" rx="8" fill="#1a3a5c"/>
+                <rect x="256" y="76" width="88" height="8" fill="#1a3a5c"/>
+                <text x="300" y="75" text-anchor="middle" fill="white" font-size="8" font-weight="700">記事出力</text>
+                <rect x="264" y="96" width="72" height="36" rx="4" fill="#e8f0f8"/>
+                <text x="300" y="110" text-anchor="middle" fill="#1a3a5c" font-size="7" font-weight="700">業務効率化の</text>
+                <text x="300" y="122" text-anchor="middle" fill="#1a3a5c" font-size="7" font-weight="700">方法10選</text>
+                <rect x="264" y="140" width="72" height="36" rx="4" fill="#e8f0f8"/>
+                <text x="300" y="154" text-anchor="middle" fill="#1a3a5c" font-size="7" font-weight="700">中小企業向け</text>
+                <text x="300" y="166" text-anchor="middle" fill="#1a3a5c" font-size="7" font-weight="700">DX推進ガイド</text>
+                <rect x="264" y="184" width="72" height="24" rx="4" fill="#dcfce7"/>
+                <text x="300" y="200" text-anchor="middle" fill="#16a34a" font-size="7" font-weight="700">WordPress自動投稿</text>
+                <text x="300" y="44" text-anchor="middle" fill="#94a3b8" font-size="8">③ 公開</text>
+                <rect x="16" y="234" width="328" height="32" rx="8" fill="white" filter="url(#f-md)"/>
+                <text x="80" y="248" text-anchor="middle" fill="#94a3b8" font-size="7">月間生成数</text>
+                <text x="80" y="260" text-anchor="middle" fill="#1a3a5c" font-size="11" font-weight="700">40<tspan font-size="8" font-weight="400">記事</tspan></text>
+                <line x1="160" y1="238" x2="160" y2="262" stroke="#e8f0f8" stroke-width="1"/>
+                <text x="220" y="248" text-anchor="middle" fill="#94a3b8" font-size="7">平均工数削減</text>
+                <text x="220" y="260" text-anchor="middle" fill="#4a90d9" font-size="11" font-weight="700">−80<tspan font-size="8" font-weight="400">%</tspan></text>
+                <line x1="280" y1="238" x2="280" y2="262" stroke="#e8f0f8" stroke-width="1"/>
+                <text x="324" y="248" text-anchor="middle" fill="#94a3b8" font-size="7">平均順位変化</text>
+                <text x="324" y="260" text-anchor="middle" fill="#22c55e" font-size="11" font-weight="700">↑<tspan font-size="9" font-weight="400">TOP10</tspan></text>
+              </svg>
