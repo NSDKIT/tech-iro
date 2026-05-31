@@ -623,7 +623,7 @@ ul { list-style: none; }
 
 /* Problem list: orange-tinted strips */
 .work-bullet-list { display: flex; flex-direction: column; gap: 5px; }
-.work-label-problem + .work-bullet-list li {
+.work-problem-list li {
   font-size: 0.81rem;
   color: #374151;
   padding: 6px 10px 6px 28px;
@@ -633,7 +633,7 @@ ul { list-style: none; }
   border-radius: 0 4px 4px 0;
   line-height: 1.65;
 }
-.work-label-problem + .work-bullet-list li::before {
+.work-problem-list li::before {
   content: '';
   position: absolute;
   left: 9px;
@@ -645,19 +645,19 @@ ul { list-style: none; }
 }
 
 /* Solution list: blue timeline */
-.work-label-solution + .work-bullet-list {
+.work-solution-list {
   border-left: 2px solid #bfdbfe;
   margin-left: 8px;
   gap: 2px;
 }
-.work-label-solution + .work-bullet-list li {
+.work-solution-list li {
   font-size: 0.81rem;
   color: #374151;
   padding: 4px 0 4px 16px;
   position: relative;
   line-height: 1.65;
 }
-.work-label-solution + .work-bullet-list li::before {
+.work-solution-list li::before {
   content: '';
   position: absolute;
   left: -5px;
