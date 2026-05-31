@@ -554,16 +554,145 @@ ul { list-style: none; }
   flex-shrink: 0;
 }
 
-.work-section-label { font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--light-gray); margin-bottom: 10px; margin-top: 20px; }
-.work-section-label:first-child { margin-top: 0; }
+/* Section label base */
+.work-section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px 3px 8px;
+  border-radius: 20px;
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.work-section-label:first-of-type { margin-top: 0; }
 
-.work-bullet-list { font-size: 0.82rem; color: var(--mid-gray); line-height: 1.85; display: flex; flex-direction: column; gap: 2px; }
-.work-bullet-list li { padding-left: 14px; position: relative; }
-.work-bullet-list li::before { content: "•"; position: absolute; left: 0; color: var(--border-color); }
+/* 解決した課題 — orange/red badge */
+.work-label-problem {
+  background: #fff4ed;
+  color: #c2410c;
+  border: 1px solid #fed7aa;
+}
+.work-label-problem::before {
+  content: '!';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  background: #ea580c;
+  color: white;
+  border-radius: 50%;
+  font-size: 0.6rem;
+  font-weight: 900;
+  flex-shrink: 0;
+}
 
-.work-result-list { font-size: 0.82rem; color: var(--dark-gray); line-height: 1.85; display: flex; flex-direction: column; gap: 2px; }
-.work-result-list li { padding-left: 20px; position: relative; }
-.work-result-list li::before { content: "✓"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+/* 実装・対応内容 — blue badge */
+.work-label-solution {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+.work-label-solution::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #4a90d9;
+  border-top: 2px solid #4a90d9;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+
+/* 成果 — green badge */
+.work-label-result {
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+.work-label-result::before {
+  content: '↑';
+  font-size: 0.75rem;
+  font-weight: 900;
+  color: #16a34a;
+  line-height: 1;
+}
+
+/* Problem list: orange-tinted strips */
+.work-bullet-list { display: flex; flex-direction: column; gap: 5px; }
+.work-label-problem + .work-bullet-list li {
+  font-size: 0.81rem;
+  color: #374151;
+  padding: 6px 10px 6px 28px;
+  position: relative;
+  background: #fff7ed;
+  border-left: 3px solid #fb923c;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.65;
+}
+.work-label-problem + .work-bullet-list li::before {
+  content: '';
+  position: absolute;
+  left: 9px;
+  top: 13px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fb923c;
+}
+
+/* Solution list: blue timeline */
+.work-label-solution + .work-bullet-list {
+  border-left: 2px solid #bfdbfe;
+  margin-left: 8px;
+  gap: 2px;
+}
+.work-label-solution + .work-bullet-list li {
+  font-size: 0.81rem;
+  color: #374151;
+  padding: 4px 0 4px 16px;
+  position: relative;
+  line-height: 1.65;
+}
+.work-label-solution + .work-bullet-list li::before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 11px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #4a90d9;
+  border: 2px solid white;
+  box-shadow: 0 0 0 1.5px #4a90d9;
+}
+
+/* Result list: green achievement cards */
+.work-result-list { display: flex; flex-direction: column; gap: 7px; }
+.work-result-list li {
+  font-size: 0.82rem;
+  color: #1f2937;
+  line-height: 1.7;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-left: 3px solid #22c55e;
+  border-radius: 0 6px 6px 0;
+  padding: 8px 12px 8px 30px;
+  position: relative;
+}
+.work-result-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  color: #22c55e;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+.work-result-list li strong { color: #15803d; font-weight: 700; }
 
 /* ===== ABOUT PAGE ===== */
 .about-lead { font-size: clamp(1rem, 1.8vw, 1.2rem); color: var(--dark-gray); line-height: 2; max-width: 640px; margin-bottom: 64px; }
