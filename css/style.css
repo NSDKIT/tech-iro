@@ -288,11 +288,23 @@ ul { list-style: none; }
 
 .work-card {
   border: 1px solid var(--border-color);
-  padding: 28px;
+  padding: 0;
   background: var(--white);
   transition: box-shadow 0.22s, transform 0.22s;
   position: relative;
+  overflow: hidden;
 }
+
+/* Visual illustration area */
+.work-card-visual {
+  height: 196px;
+  overflow: hidden;
+  background: var(--accent-light);
+  position: relative;
+}
+.work-card-visual svg { width: 100%; height: 100%; display: block; }
+
+.work-card-body { padding: 20px 24px 24px; }
 
 .work-card::before {
   content: '';
@@ -325,8 +337,9 @@ ul { list-style: none; }
 .work-card-list { font-size: 0.82rem; color: var(--mid-gray); line-height: 1.8; display: flex; flex-direction: column; gap: 2px; }
 .work-card-list li::before { content: "• "; color: var(--border-color); }
 .work-card-results { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--bg-subtle); }
-.work-card-result-list { font-size: 0.82rem; color: var(--dark-gray); line-height: 1.8; display: flex; flex-direction: column; gap: 2px; }
-.work-card-result-list li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+.work-card-result-list { font-size: 0.82rem; color: var(--dark-gray); line-height: 1.8; display: flex; flex-direction: column; gap: 4px; margin-top: 12px; }
+.work-card-result-list li { padding-left: 18px; position: relative; }
+.work-card-result-list li::before { content: "✓"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
 .works-cta { text-align: center; padding-top: 8px; }
 
 /* ===== SERVICES ===== */
@@ -465,24 +478,35 @@ ul { list-style: none; }
 }
 
 /* ===== WORKS PAGE ===== */
-.works-full-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.works-full-grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
 
 .work-full-card {
   border: 1px solid var(--border-color);
-  padding: 36px;
+  padding: 0;
   background: var(--white);
   transition: box-shadow 0.22s, transform 0.22s;
   position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 360px 1fr;
 }
+
+.work-full-card .work-card-visual {
+  height: auto;
+  min-height: 280px;
+}
+
+.work-card-content { padding: 32px 36px; }
 
 .work-full-card::before {
   content: '';
   position: absolute;
   top: 0; left: 0;
-  width: 3px;
-  height: 0;
+  width: 0;
+  height: 3px;
   background: var(--accent);
-  transition: height 0.3s;
+  transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  z-index: 1;
 }
 
 .work-full-card:hover {
@@ -490,7 +514,7 @@ ul { list-style: none; }
   transform: translateY(-2px);
 }
 
-.work-full-card:hover::before { height: 100%; }
+.work-full-card:hover::before { width: 100%; }
 
 .work-card-top {
   display: flex;
@@ -745,6 +769,8 @@ ul { list-style: none; }
 
   .philosophy-item-title { grid-column: 2; }
   .philosophy-item-desc { grid-column: 2; }
+
+  .work-full-card { grid-template-columns: 280px 1fr; }
 }
 
 @media (max-width: 900px) {
@@ -791,7 +817,8 @@ ul { list-style: none; }
   .strength-item:last-child { border-bottom: none; }
   .strength-item:nth-child(3), .strength-item:nth-child(4) { border-bottom: 1px solid var(--border-color); }
 
-  .works-full-grid { grid-template-columns: 1fr; }
+  .work-full-card { grid-template-columns: 1fr; }
+  .work-full-card .work-card-visual { min-height: 200px; height: 200px; }
 
   .skills-grid { grid-template-columns: 1fr; }
   .skill-item { border-right: none; border-bottom: 1px solid var(--border-color); }

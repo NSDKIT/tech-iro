@@ -29,14 +29,11 @@
         </ul>
       </nav>
       <button class="hamburger" aria-label="メニューを開く" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
-  <!-- Mobile Nav -->
   <nav class="mobile-nav" aria-label="モバイルメニュー">
     <ul class="mobile-nav-list">
       <li><a href="works.html">実績</a></li>
@@ -61,29 +58,21 @@
         </div>
         <div class="hero-visual">
           <svg viewBox="0 0 520 380" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero-illustration">
-            <!-- Window frame -->
             <rect width="520" height="380" rx="12" fill="white" stroke="#e8edf2" stroke-width="1.5"/>
-            <!-- Titlebar -->
             <rect width="520" height="48" rx="12" fill="#f5f7fa"/>
             <rect y="36" width="520" height="12" fill="#f5f7fa"/>
-            <!-- Traffic lights -->
             <circle cx="28" cy="24" r="5.5" fill="#ff6b6b" opacity="0.8"/>
             <circle cx="46" cy="24" r="5.5" fill="#ffd93d" opacity="0.8"/>
             <circle cx="64" cy="24" r="5.5" fill="#6bcb77" opacity="0.8"/>
-            <!-- URL bar -->
             <rect x="96" y="14" width="200" height="20" rx="4" fill="#e8edf2"/>
-            <!-- Sidebar -->
             <rect y="48" width="116" height="332" fill="#f8fafb"/>
-            <!-- Active sidebar item -->
             <rect y="68" width="116" height="28" fill="#1a3a5c" opacity="0.08"/>
             <rect y="68" width="3" height="28" fill="#1a3a5c"/>
             <rect x="16" y="76" width="84" height="8" rx="2" fill="#1a3a5c" opacity="0.25"/>
-            <!-- Sidebar items -->
             <rect x="16" y="110" width="68" height="7" rx="2" fill="#d0d8e0"/>
             <rect x="16" y="130" width="76" height="7" rx="2" fill="#d0d8e0"/>
             <rect x="16" y="150" width="60" height="7" rx="2" fill="#d0d8e0"/>
             <rect x="16" y="170" width="72" height="7" rx="2" fill="#d0d8e0"/>
-            <!-- Stats cards -->
             <rect x="136" y="64" width="114" height="64" rx="6" fill="#f0f4f9"/>
             <rect x="148" y="78" width="44" height="5" rx="2" fill="#b0bdc8"/>
             <rect x="148" y="91" width="60" height="14" rx="3" fill="#1a3a5c" opacity="0.65"/>
@@ -93,7 +82,6 @@
             <rect x="388" y="64" width="116" height="64" rx="6" fill="#1a3a5c"/>
             <rect x="400" y="78" width="44" height="5" rx="2" fill="rgba(255,255,255,0.4)"/>
             <rect x="400" y="91" width="60" height="14" rx="3" fill="white" opacity="0.85"/>
-            <!-- Bar chart -->
             <rect x="136" y="144" width="242" height="152" rx="6" fill="#f8fafb" stroke="#eaecef" stroke-width="1"/>
             <rect x="152" y="158" width="64" height="6" rx="2" fill="#b0bdc8"/>
             <rect x="162" y="252" width="18" height="36" rx="2" fill="#d4e0ec"/>
@@ -102,7 +90,6 @@
             <rect x="252" y="232" width="18" height="56" rx="2" fill="#d4e0ec"/>
             <rect x="282" y="192" width="18" height="96" rx="2" fill="#1a3a5c"/>
             <rect x="312" y="216" width="18" height="72" rx="2" fill="#d4e0ec"/>
-            <!-- Side panel -->
             <rect x="390" y="144" width="114" height="152" rx="6" fill="#f8fafb" stroke="#eaecef" stroke-width="1"/>
             <rect x="404" y="158" width="56" height="6" rx="2" fill="#b0bdc8"/>
             <rect x="404" y="178" width="86" height="7" rx="2" fill="#e0e6ee"/>
@@ -110,8 +97,6 @@
             <rect x="404" y="214" width="80" height="7" rx="2" fill="#e0e6ee"/>
             <rect x="404" y="232" width="60" height="7" rx="2" fill="#e0e6ee"/>
             <rect x="404" y="250" width="86" height="7" rx="2" fill="#1a3a5c" opacity="0.25"/>
-            <rect x="404" y="268" width="70" height="7" rx="2" fill="#e0e6ee"/>
-            <!-- Bottom panels -->
             <rect x="136" y="308" width="172" height="52" rx="6" fill="#f0f4f9"/>
             <rect x="152" y="320" width="52" height="5" rx="2" fill="#b0bdc8"/>
             <polyline points="152,348 168,340 184,344 200,333 216,337 232,328 248,330 264,322 280,324 296,316" stroke="#1a3a5c" stroke-width="1.5" fill="none" opacity="0.55"/>
@@ -161,19 +146,73 @@
         <div class="divider"></div>
         <div class="works-grid">
 
+          <!-- Card 01: Attendance -->
           <div class="work-card">
-            <span class="work-card-num">01</span>
-            <h3 class="work-card-title">出勤簿・勤怠管理システム開発</h3>
-            <div>
-              <p class="work-card-label">解決した課題</p>
-              <ul class="work-card-list">
-                <li>手作業での出勤簿作成・集計が煩雑</li>
-                <li>月ごとのシート作成に手間がかかる</li>
-                <li>入力ミス・転記ミスが頻発</li>
-              </ul>
+            <div class="work-card-visual">
+              <svg viewBox="0 0 480 196" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+                <rect width="480" height="196" fill="#edf3fa"/>
+                <!-- Calendar panel -->
+                <rect x="24" y="16" width="238" height="164" rx="8" fill="white" stroke="#d4dde8" stroke-width="1"/>
+                <rect x="24" y="16" width="238" height="40" rx="8" fill="#1a3a5c"/>
+                <rect x="24" y="44" width="238" height="12" fill="#1a3a5c"/>
+                <rect x="40" y="26" width="80" height="8" rx="2" fill="rgba(255,255,255,0.65)"/>
+                <rect x="228" y="26" width="24" height="8" rx="2" fill="rgba(255,255,255,0.2)"/>
+                <!-- Weekday labels -->
+                <rect x="36" y="66" width="22" height="5" rx="1" fill="#b8c5d0"/>
+                <rect x="66" y="66" width="22" height="5" rx="1" fill="#b8c5d0"/>
+                <rect x="96" y="66" width="22" height="5" rx="1" fill="#b8c5d0"/>
+                <rect x="126" y="66" width="22" height="5" rx="1" fill="#b8c5d0"/>
+                <rect x="156" y="66" width="22" height="5" rx="1" fill="#b8c5d0"/>
+                <rect x="186" y="66" width="22" height="5" rx="1" fill="#b8c5d0"/>
+                <rect x="216" y="66" width="22" height="5" rx="1" fill="#b8c5d0"/>
+                <!-- Row 1 -->
+                <rect x="36" y="80" width="22" height="22" rx="3" fill="#e8f0f8"/>
+                <rect x="66" y="80" width="22" height="22" rx="3" fill="#e8f0f8"/>
+                <rect x="96" y="80" width="22" height="22" rx="3" fill="#1a3a5c"/>
+                <rect x="126" y="80" width="22" height="22" rx="3" fill="#e8f0f8"/>
+                <rect x="156" y="80" width="22" height="22" rx="3" fill="#e8f0f8"/>
+                <rect x="186" y="80" width="22" height="22" rx="3" fill="#e8f0f8"/>
+                <rect x="216" y="80" width="22" height="22" rx="3" fill="#e8f0f8" opacity="0.5"/>
+                <!-- Row 2 -->
+                <rect x="36" y="110" width="22" height="22" rx="3" fill="#e8f0f8"/>
+                <rect x="66" y="110" width="22" height="22" rx="3" fill="#1a3a5c"/>
+                <rect x="96" y="110" width="22" height="22" rx="3" fill="#e8f0f8"/>
+                <rect x="126" y="110" width="22" height="22" rx="3" fill="#e8f0f8"/>
+                <rect x="156" y="110" width="22" height="22" rx="3" fill="#1a3a5c"/>
+                <rect x="186" y="110" width="22" height="22" rx="3" fill="#e8f0f8"/>
+                <rect x="216" y="110" width="22" height="22" rx="3" fill="#e8f0f8" opacity="0.5"/>
+                <!-- Row 3 -->
+                <rect x="36" y="140" width="22" height="22" rx="3" fill="#e8f0f8"/>
+                <rect x="66" y="140" width="22" height="22" rx="3" fill="#e8f0f8"/>
+                <rect x="96" y="140" width="22" height="22" rx="3" fill="#e8f0f8"/>
+                <rect x="126" y="140" width="22" height="22" rx="3" fill="#1a3a5c" opacity="0.65"/>
+                <rect x="156" y="140" width="22" height="22" rx="3" fill="#e8f0f8"/>
+                <!-- Clock widget -->
+                <rect x="280" y="16" width="100" height="100" rx="8" fill="white" stroke="#d4dde8" stroke-width="1"/>
+                <circle cx="330" cy="66" r="32" stroke="#1a3a5c" stroke-width="1.5" fill="none" opacity="0.18"/>
+                <circle cx="330" cy="42" r="2" fill="#1a3a5c" opacity="0.4"/>
+                <circle cx="330" cy="90" r="2" fill="#1a3a5c" opacity="0.4"/>
+                <circle cx="306" cy="66" r="2" fill="#1a3a5c" opacity="0.4"/>
+                <circle cx="354" cy="66" r="2" fill="#1a3a5c" opacity="0.4"/>
+                <line x1="330" y1="66" x2="330" y2="48" stroke="#1a3a5c" stroke-width="2" stroke-linecap="round"/>
+                <line x1="330" y1="66" x2="346" y2="66" stroke="#1a3a5c" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="330" cy="66" r="3" fill="#1a3a5c"/>
+                <!-- Stats mini -->
+                <rect x="280" y="128" width="46" height="40" rx="6" fill="white" stroke="#d4dde8" stroke-width="1"/>
+                <rect x="290" y="138" width="26" height="5" rx="1" fill="#b8c5d0"/>
+                <rect x="290" y="149" width="18" height="9" rx="2" fill="#1a3a5c" opacity="0.55"/>
+                <rect x="336" y="128" width="120" height="40" rx="6" fill="#1a3a5c"/>
+                <rect x="346" y="138" width="60" height="5" rx="2" fill="rgba(255,255,255,0.45)"/>
+                <rect x="346" y="149" width="40" height="9" rx="2" fill="white"/>
+                <!-- Progress bar -->
+                <rect x="280" y="178" width="176" height="20" rx="4" fill="white" stroke="#d4dde8" stroke-width="1"/>
+                <rect x="280" y="178" width="136" height="20" rx="4" fill="#1a3a5c" opacity="0.15"/>
+                <rect x="284" y="185" width="100" height="6" rx="2" fill="#1a3a5c" opacity="0.5"/>
+              </svg>
             </div>
-            <div class="work-card-results">
-              <p class="work-card-label">成果</p>
+            <div class="work-card-body">
+              <span class="work-card-num">01</span>
+              <h3 class="work-card-title">出勤簿・勤怠管理システム開発</h3>
               <ul class="work-card-result-list">
                 <li>毎月の作業を大幅に簡略化</li>
                 <li>入力ミス・作業漏れを削減</li>
@@ -182,19 +221,56 @@
             </div>
           </div>
 
+          <!-- Card 02: Sales -->
           <div class="work-card">
-            <span class="work-card-num">02</span>
-            <h3 class="work-card-title">売上管理システム開発</h3>
-            <div>
-              <p class="work-card-label">解決した課題</p>
-              <ul class="work-card-list">
-                <li>売上情報が複数システムに分散</li>
-                <li>集計作業に多大な時間がかかる</li>
-                <li>手入力・手集計によるミスが多発</li>
-              </ul>
+            <div class="work-card-visual">
+              <svg viewBox="0 0 480 196" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+                <rect width="480" height="196" fill="#edf3fa"/>
+                <!-- Chart panel -->
+                <rect x="24" y="16" width="290" height="164" rx="8" fill="white" stroke="#d4dde8" stroke-width="1"/>
+                <!-- Header area -->
+                <rect x="40" y="28" width="72" height="8" rx="2" fill="#b8c5d0"/>
+                <!-- Y-axis labels -->
+                <rect x="36" y="158" width="16" height="4" rx="1" fill="#d4dde8"/>
+                <rect x="36" y="134" width="16" height="4" rx="1" fill="#d4dde8"/>
+                <rect x="36" y="110" width="16" height="4" rx="1" fill="#d4dde8"/>
+                <rect x="36" y="86" width="16" height="4" rx="1" fill="#d4dde8"/>
+                <!-- Grid lines -->
+                <line x1="60" y1="160" x2="298" y2="160" stroke="#eaecef" stroke-width="1"/>
+                <line x1="60" y1="136" x2="298" y2="136" stroke="#eaecef" stroke-width="1"/>
+                <line x1="60" y1="112" x2="298" y2="112" stroke="#eaecef" stroke-width="1"/>
+                <line x1="60" y1="88" x2="298" y2="88" stroke="#eaecef" stroke-width="1"/>
+                <!-- Bars (increasing) -->
+                <rect x="68" y="132" width="28" height="28" rx="3" fill="#d4e0ec"/>
+                <rect x="110" y="118" width="28" height="42" rx="3" fill="#d4e0ec"/>
+                <rect x="152" y="100" width="28" height="60" rx="3" fill="#1a3a5c" opacity="0.5"/>
+                <rect x="194" y="84" width="28" height="76" rx="3" fill="#1a3a5c" opacity="0.75"/>
+                <rect x="236" y="62" width="28" height="98" rx="3" fill="#1a3a5c"/>
+                <!-- Trend line -->
+                <polyline points="82,136 124,122 166,104 208,88 252,66" stroke="#ff6b35" stroke-width="2" fill="none" stroke-dasharray="4 2"/>
+                <!-- Trend dot -->
+                <circle cx="252" cy="66" r="4" fill="#ff6b35"/>
+                <!-- X-axis labels -->
+                <rect x="68" y="168" width="28" height="5" rx="1" fill="#d4dde8"/>
+                <rect x="110" y="168" width="28" height="5" rx="1" fill="#d4dde8"/>
+                <rect x="152" y="168" width="28" height="5" rx="1" fill="#d4dde8"/>
+                <rect x="194" y="168" width="28" height="5" rx="1" fill="#d4dde8"/>
+                <rect x="236" y="168" width="28" height="5" rx="1" fill="#d4dde8"/>
+                <!-- Side stats -->
+                <rect x="330" y="16" width="126" height="56" rx="8" fill="#1a3a5c"/>
+                <rect x="346" y="28" width="48" height="6" rx="2" fill="rgba(255,255,255,0.45)"/>
+                <rect x="346" y="40" width="72" height="18" rx="3" fill="white" opacity="0.9"/>
+                <rect x="330" y="84" width="126" height="48" rx="8" fill="white" stroke="#d4dde8" stroke-width="1"/>
+                <rect x="346" y="96" width="48" height="6" rx="2" fill="#b8c5d0"/>
+                <rect x="346" y="108" width="60" height="12" rx="3" fill="#1a3a5c" opacity="0.55"/>
+                <rect x="330" y="144" width="126" height="36" rx="8" fill="#f0f5fb"/>
+                <!-- Mini sparkline -->
+                <polyline points="346,172 362,166 378,168 394,158 410,162 426,152 442,154" stroke="#1a3a5c" stroke-width="1.5" fill="none" opacity="0.55"/>
+              </svg>
             </div>
-            <div class="work-card-results">
-              <p class="work-card-label">成果</p>
+            <div class="work-card-body">
+              <span class="work-card-num">02</span>
+              <h3 class="work-card-title">売上管理システム開発</h3>
               <ul class="work-card-result-list">
                 <li>売上情報を一元管理できる状態に改善</li>
                 <li>集計作業の手間を大幅削減</li>
@@ -203,19 +279,59 @@
             </div>
           </div>
 
+          <!-- Card 03: Progress Reports (Kanban) -->
           <div class="work-card">
-            <span class="work-card-num">03</span>
-            <h3 class="work-card-title">日報・進捗管理システム開発</h3>
-            <div>
-              <p class="work-card-label">解決した課題</p>
-              <ul class="work-card-list">
-                <li>日報が紙・Excel・チャットに分散</li>
-                <li>進捗状況が見えづらい</li>
-                <li>管理者の確認に時間がかかる</li>
-              </ul>
+            <div class="work-card-visual">
+              <svg viewBox="0 0 480 196" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+                <rect width="480" height="196" fill="#edf3fa"/>
+                <!-- 3 Kanban columns -->
+                <!-- Column 1: 未着手 -->
+                <rect x="24" y="16" width="136" height="164" rx="6" fill="white" stroke="#d4dde8" stroke-width="1"/>
+                <rect x="24" y="16" width="136" height="32" rx="6" fill="#f5f7fa"/>
+                <rect x="24" y="36" width="136" height="12" fill="#f5f7fa"/>
+                <rect x="40" y="25" width="60" height="7" rx="2" fill="#b8c5d0"/>
+                <!-- Cards in col 1 -->
+                <rect x="34" y="56" width="116" height="36" rx="4" fill="#f0f5fb"/>
+                <rect x="42" y="64" width="72" height="6" rx="2" fill="#1a3a5c" opacity="0.4"/>
+                <rect x="42" y="74" width="52" height="5" rx="1" fill="#b8c5d0"/>
+                <rect x="34" y="100" width="116" height="36" rx="4" fill="#f0f5fb"/>
+                <rect x="42" y="108" width="60" height="6" rx="2" fill="#1a3a5c" opacity="0.4"/>
+                <rect x="42" y="118" width="44" height="5" rx="1" fill="#b8c5d0"/>
+                <!-- Column 2: 進行中 -->
+                <rect x="172" y="16" width="136" height="164" rx="6" fill="white" stroke="#1a3a5c" stroke-width="1.5"/>
+                <rect x="172" y="16" width="136" height="32" rx="6" fill="#1a3a5c"/>
+                <rect x="172" y="36" width="136" height="12" fill="#1a3a5c"/>
+                <rect x="188" y="25" width="60" height="7" rx="2" fill="rgba(255,255,255,0.7)"/>
+                <!-- Cards in col 2 -->
+                <rect x="182" y="56" width="116" height="44" rx="4" fill="#e8f0f8"/>
+                <rect x="190" y="65" width="80" height="6" rx="2" fill="#1a3a5c" opacity="0.7"/>
+                <rect x="190" y="75" width="64" height="5" rx="1" fill="#1a3a5c" opacity="0.3"/>
+                <rect x="190" y="83" width="48" height="5" rx="1" fill="#1a3a5c" opacity="0.3"/>
+                <rect x="182" y="108" width="116" height="36" rx="4" fill="#e8f0f8"/>
+                <rect x="190" y="116" width="72" height="6" rx="2" fill="#1a3a5c" opacity="0.7"/>
+                <rect x="190" y="126" width="52" height="5" rx="1" fill="#1a3a5c" opacity="0.3"/>
+                <!-- Progress bar in col 2 card -->
+                <rect x="190" y="82" width="96" height="4" rx="2" fill="#d4dde8"/>
+                <rect x="190" y="82" width="68" height="4" rx="2" fill="#1a3a5c" opacity="0.6"/>
+                <!-- Column 3: 完了 -->
+                <rect x="320" y="16" width="136" height="164" rx="6" fill="white" stroke="#d4dde8" stroke-width="1"/>
+                <rect x="320" y="16" width="136" height="32" rx="6" fill="#f5f7fa"/>
+                <rect x="320" y="36" width="136" height="12" fill="#f5f7fa"/>
+                <rect x="336" y="25" width="48" height="7" rx="2" fill="#b8c5d0"/>
+                <!-- Done cards with check mark style -->
+                <rect x="330" y="56" width="116" height="36" rx="4" fill="#f0f5fb"/>
+                <rect x="338" y="64" width="72" height="6" rx="2" fill="#1a3a5c" opacity="0.25"/>
+                <rect x="338" y="74" width="52" height="5" rx="1" fill="#b8c5d0" opacity="0.5"/>
+                <rect x="330" y="100" width="116" height="36" rx="4" fill="#f0f5fb"/>
+                <rect x="338" y="108" width="60" height="6" rx="2" fill="#1a3a5c" opacity="0.25"/>
+                <rect x="338" y="118" width="44" height="5" rx="1" fill="#b8c5d0" opacity="0.5"/>
+                <rect x="330" y="144" width="116" height="28" rx="4" fill="#f0f5fb"/>
+                <rect x="338" y="152" width="52" height="6" rx="2" fill="#1a3a5c" opacity="0.25"/>
+              </svg>
             </div>
-            <div class="work-card-results">
-              <p class="work-card-label">成果</p>
+            <div class="work-card-body">
+              <span class="work-card-num">03</span>
+              <h3 class="work-card-title">日報・進捗管理システム開発</h3>
               <ul class="work-card-result-list">
                 <li>日報・進捗状況を一元管理</li>
                 <li>管理者の確認工数を削減</li>
@@ -224,19 +340,71 @@
             </div>
           </div>
 
+          <!-- Card 04: SEO Articles (Flow) -->
           <div class="work-card">
-            <span class="work-card-num">04</span>
-            <h3 class="work-card-title">SEO記事自動化システム構築</h3>
-            <div>
-              <p class="work-card-label">解決した課題</p>
-              <ul class="work-card-list">
-                <li>記事作成に時間がかかる</li>
-                <li>継続的なコンテンツ更新が大きな負担</li>
-                <li>SEO施策を回す人的リソース不足</li>
-              </ul>
+            <div class="work-card-visual">
+              <svg viewBox="0 0 480 196" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+                <rect width="480" height="196" fill="#edf3fa"/>
+                <!-- Flow: Keywords → Engine → Articles -->
+                <!-- Keywords input panel -->
+                <rect x="16" y="24" width="130" height="148" rx="8" fill="white" stroke="#d4dde8" stroke-width="1"/>
+                <rect x="16" y="24" width="130" height="28" rx="8" fill="#1a3a5c" opacity="0.08"/>
+                <rect x="16" y="40" width="130" height="12" fill="#1a3a5c" opacity="0.08"/>
+                <rect x="28" y="31" width="60" height="7" rx="2" fill="#1a3a5c" opacity="0.35"/>
+                <!-- Keywords list -->
+                <rect x="28" y="58" width="88" height="8" rx="2" fill="#1a3a5c" opacity="0.6"/>
+                <rect x="28" y="72" width="72" height="8" rx="2" fill="#1a3a5c" opacity="0.4"/>
+                <rect x="28" y="86" width="96" height="8" rx="2" fill="#1a3a5c" opacity="0.4"/>
+                <rect x="28" y="100" width="64" height="8" rx="2" fill="#1a3a5c" opacity="0.4"/>
+                <rect x="28" y="114" width="80" height="8" rx="2" fill="#1a3a5c" opacity="0.3"/>
+                <rect x="28" y="128" width="76" height="8" rx="2" fill="#1a3a5c" opacity="0.2"/>
+                <rect x="28" y="142" width="52" height="8" rx="2" fill="#1a3a5c" opacity="0.15"/>
+                <!-- Tag badges -->
+                <rect x="28" y="58" width="26" height="8" rx="4" fill="#1a3a5c"/>
+                <rect x="58" y="58" width="26" height="8" rx="4" fill="#1a3a5c" opacity="0.15"/>
+                <!-- Arrow 1 -->
+                <line x1="156" y1="98" x2="184" y2="98" stroke="#1a3a5c" stroke-width="1.5" stroke-dasharray="3 2" opacity="0.5"/>
+                <polygon points="184,94 192,98 184,102" fill="#1a3a5c" opacity="0.5"/>
+                <!-- Center engine panel -->
+                <rect x="194" y="52" width="96" height="92" rx="8" fill="#1a3a5c"/>
+                <circle cx="242" cy="98" r="28" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" fill="none"/>
+                <circle cx="242" cy="98" r="18" stroke="rgba(255,255,255,0.3)" stroke-width="1" fill="none"/>
+                <!-- Gear teeth suggestion -->
+                <circle cx="242" cy="70" r="4" fill="rgba(255,255,255,0.3)"/>
+                <circle cx="242" cy="126" r="4" fill="rgba(255,255,255,0.3)"/>
+                <circle cx="214" cy="98" r="4" fill="rgba(255,255,255,0.3)"/>
+                <circle cx="270" cy="98" r="4" fill="rgba(255,255,255,0.3)"/>
+                <!-- Center dot -->
+                <circle cx="242" cy="98" r="7" fill="rgba(255,255,255,0.6)"/>
+                <!-- AI label -->
+                <rect x="222" y="144" width="40" height="14" rx="4" fill="rgba(255,255,255,0.15)"/>
+                <rect x="228" y="148" width="28" height="6" rx="2" fill="rgba(255,255,255,0.6)"/>
+                <!-- Arrow 2 -->
+                <line x1="300" y1="98" x2="328" y2="98" stroke="#1a3a5c" stroke-width="1.5" stroke-dasharray="3 2" opacity="0.5"/>
+                <polygon points="328,94 336,98 328,102" fill="#1a3a5c" opacity="0.5"/>
+                <!-- Articles output panel -->
+                <rect x="338" y="24" width="130" height="148" rx="8" fill="white" stroke="#d4dde8" stroke-width="1"/>
+                <rect x="338" y="24" width="130" height="28" rx="8" fill="#1a3a5c" opacity="0.08"/>
+                <rect x="338" y="40" width="130" height="12" fill="#1a3a5c" opacity="0.08"/>
+                <rect x="350" y="31" width="60" height="7" rx="2" fill="#1a3a5c" opacity="0.35"/>
+                <!-- Article items -->
+                <rect x="350" y="56" width="106" height="28" rx="4" fill="#f0f5fb"/>
+                <rect x="358" y="63" width="76" height="7" rx="2" fill="#1a3a5c" opacity="0.55"/>
+                <rect x="358" y="75" width="52" height="5" rx="1" fill="#b8c5d0"/>
+                <rect x="350" y="90" width="106" height="28" rx="4" fill="#f0f5fb"/>
+                <rect x="358" y="97" width="68" height="7" rx="2" fill="#1a3a5c" opacity="0.55"/>
+                <rect x="358" y="109" width="44" height="5" rx="1" fill="#b8c5d0"/>
+                <rect x="350" y="124" width="106" height="28" rx="4" fill="#f0f5fb"/>
+                <rect x="358" y="131" width="80" height="7" rx="2" fill="#1a3a5c" opacity="0.55"/>
+                <rect x="358" y="143" width="52" height="5" rx="1" fill="#b8c5d0"/>
+                <!-- Growth indicator -->
+                <rect x="350" y="158" width="106" height="6" rx="2" fill="#e8f0f8"/>
+                <rect x="350" y="158" width="80" height="6" rx="2" fill="#1a3a5c" opacity="0.4"/>
+              </svg>
             </div>
-            <div class="work-card-results">
-              <p class="work-card-label">成果</p>
+            <div class="work-card-body">
+              <span class="work-card-num">04</span>
+              <h3 class="work-card-title">SEO記事自動化システム構築</h3>
               <ul class="work-card-result-list">
                 <li>記事作成の初期工数を大幅削減</li>
                 <li>SEOコンテンツ運用を継続しやすく改善</li>
@@ -274,9 +442,7 @@
               <div class="service-text">
                 <span class="service-num">01</span>
                 <h3 class="service-title">本来やりたい業務に集中するためのシステム開発</h3>
-                <p class="service-desc">
-                  同じ入力作業を何度もしている、情報がバラバラに管理されている。そういった「なんとなく不便」な状態を改善します。システムにかけるお金を、本来使いたい部分に戻します。
-                </p>
+                <p class="service-desc">同じ入力作業を何度もしている、情報がバラバラに管理されている。そういった「なんとなく不便」な状態を改善します。システムにかけるお金を、本来使いたい部分に戻します。</p>
               </div>
             </div>
           </div>
@@ -292,9 +458,7 @@
               <div class="service-text">
                 <span class="service-num">02</span>
                 <h3 class="service-title">既存システムの改善・最適化</h3>
-                <p class="service-desc">
-                  「人が頑張らないと回らない」から「仕組みで自然と回る状態」へ。パフォーマンス改善、セキュリティ診断、レガシーシステムの現代化など、現場に合う形で対応します。
-                </p>
+                <p class="service-desc">「人が頑張らないと回らない」から「仕組みで自然と回る状態」へ。パフォーマンス改善、セキュリティ診断、レガシーシステムの現代化など、現場に合う形で対応します。</p>
               </div>
             </div>
           </div>
@@ -310,9 +474,7 @@
               <div class="service-text">
                 <span class="service-num">03</span>
                 <h3 class="service-title">構想段階からのサポート</h3>
-                <p class="service-desc">
-                  「システムが本当に必要か」から一緒に考えます。必要以上に高機能なものは作りません。本当に必要なものを、必要な形で、現場に合う形でつくります。
-                </p>
+                <p class="service-desc">「システムが本当に必要か」から一緒に考えます。必要以上に高機能なものは作りません。本当に必要なものを、必要な形で、現場に合う形でつくります。</p>
               </div>
             </div>
           </div>
@@ -332,57 +494,42 @@
           <div class="strength-item">
             <div class="strength-icon-wrap">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10"/>
-                <circle cx="12" cy="12" r="6"/>
-                <circle cx="12" cy="12" r="2"/>
+                <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
               </svg>
             </div>
             <h3 class="strength-title">目的を見ている</h3>
-            <p class="strength-desc">
-              システムを導入することが目的ではなく、その会社が本来やりたいことに集中できる状態をつくること。その目的がブレません。
-            </p>
+            <p class="strength-desc">システムを導入することが目的ではなく、その会社が本来やりたいことに集中できる状態をつくること。その目的がブレません。</p>
           </div>
 
           <div class="strength-item">
             <div class="strength-icon-wrap">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                <circle cx="9" cy="7" r="4"/>
-                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
               </svg>
             </div>
             <h3 class="strength-title">現場から考える</h3>
-            <p class="strength-desc">
-              「管理するため」に時間を使うのは、本来の目的ではありません。同じ入力作業、バラバラな情報、人が頑張らないと回らない状態を改善します。
-            </p>
+            <p class="strength-desc">「管理するため」に時間を使うのは、本来の目的ではありません。同じ入力作業、バラバラな情報、人が頑張らないと回らない状態を改善します。</p>
           </div>
 
           <div class="strength-item">
             <div class="strength-icon-wrap">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="12 2 2 7 12 12 22 7 12 2"/>
-                <polyline points="2 17 12 22 22 17"/>
-                <polyline points="2 12 12 17 22 12"/>
+                <polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/>
               </svg>
             </div>
             <h3 class="strength-title">必要なものだけ</h3>
-            <p class="strength-desc">
-              派手なDXではなくてもいい。現場が少しラクになる。ミスが減る。対応が早くなる。そういう積み重ねが、結果的に会社を強くすると考えています。
-            </p>
+            <p class="strength-desc">派手なDXではなくてもいい。現場が少しラクになる。ミスが減る。対応が早くなる。そういう積み重ねが、結果的に会社を強くすると考えています。</p>
           </div>
 
           <div class="strength-item">
             <div class="strength-icon-wrap">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                <polyline points="9 12 11 14 15 10"/>
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/>
               </svg>
             </div>
             <h3 class="strength-title">責任を持ってやる</h3>
-            <p class="strength-desc">
-              一人で受けた案件は最後まで自分で対応します。本来使いたかった時間・お金・集中力を、本来使いたい部分に戻す。それが約束です。
-            </p>
+            <p class="strength-desc">一人で受けた案件は最後まで自分で対応します。本来使いたかった時間・お金・集中力を、本来使いたい部分に戻す。それが約束です。</p>
           </div>
 
         </div>
@@ -401,11 +548,7 @@
           <div>
             <div class="profile-row">
               <span class="profile-row-label">スキル</span>
-              <span class="profile-row-value">
-                フロントエンド: React, Vue.js, TypeScript<br>
-                バックエンド: Node.js, Python, Go<br>
-                インフラ: AWS, GCP, Docker
-              </span>
+              <span class="profile-row-value">フロントエンド: React, Vue.js, TypeScript<br>バックエンド: Node.js, Python, Go<br>インフラ: AWS, GCP, Docker</span>
             </div>
             <div class="profile-row">
               <span class="profile-row-label">対応範囲</span>
@@ -423,7 +566,6 @@
 
   </main>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="footer-inner">
