@@ -1,0 +1,39 @@
+/* Obsidian Task Manager — optional visual polish */
+.task-manager-dashboard,
+.task-manager-view,
+.task-manager-project {
+  --tm-accent: var(--interactive-accent);
+  --tm-panel: var(--background-secondary);
+}
+
+.task-manager-dashboard h1,
+.task-manager-view h1,
+.task-manager-project h1 {
+  margin-bottom: 0.35rem;
+  letter-spacing: -0.02em;
+}
+
+.task-manager-dashboard blockquote,
+.task-manager-view blockquote,
+.task-manager-project blockquote {
+  border-left: 4px solid var(--tm-accent);
+  background: var(--tm-panel);
+  border-radius: 0 8px 8px 0;
+  padding: 0.7rem 1rem;
+}
+
+.task-manager-dashboard table,
+.task-manager-view table {
+  width: 100%;
+}
+
+.task-manager-dashboard .tasks-list-text,
+.task-manager-view .tasks-list-text,
+.task-manager-project .tasks-list-text {
+  line-height: 1.55;
+}
+
+.task-manager-dashboard .callout,
+.task-manager-view .callout {
+  border-radius: 10px;
+}
